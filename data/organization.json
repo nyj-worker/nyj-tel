@@ -1,0 +1,6449 @@
+{
+  "organization": {
+    "name": "남양주시",
+    "title": "남양주시 스마트 조직도",
+    "updatedAt": "2026-09-11",
+    "scaleSummary": "1실 7국 1추진단 5관 50과 4직속 4사업소 16개읍면동 1의회",
+    "representativePhone": "031-590-2114",
+    "mayor": {
+      "title": "남양주시장",
+      "name": "최현덕",
+      "office": "열린시장실",
+      "url": "https://www.nyj.go.kr/mayor/index.do"
+    },
+    "viceMayor": {
+      "title": "부시장",
+      "name": "김상수",
+      "rank": "지방부이사관/이사관",
+      "secretary": {
+        "title": "비서",
+        "name": "최지호",
+        "phone": "2010"
+      }
+    },
+    "advisors": [
+      {
+        "title": "정책보좌관",
+        "name": "경성석",
+        "phone": "2044"
+      },
+      {
+        "title": "정책보좌관",
+        "name": "김종동",
+        "phone": "2006"
+      }
+    ],
+    "secretariat": [
+      {
+        "title": "비서실장",
+        "name": "이은화",
+        "phone": "2001"
+      },
+      {
+        "title": "민원팀장",
+        "name": "김동진",
+        "phone": "2002"
+      },
+      {
+        "title": "수행팀장",
+        "name": "나승권",
+        "phone": "2003"
+      },
+      {
+        "title": "비서실",
+        "name": "",
+        "phone": "2010~12"
+      }
+    ]
+  },
+  "sections": {
+    "headquarters": {
+      "title": "본청과 제2청사",
+      "description": "기획조정실, 7개 국, 미래도시추진단 및 시장 직속 5관",
+      "categories": [
+        {
+          "id": "mayor-direct",
+          "name": "시장 직속 담당관",
+          "type": "직속",
+          "departments": [
+            "citizen-mayor"
+          ]
+        },
+        {
+          "id": "vicemayor-direct",
+          "name": "부시장 직속 담당관",
+          "type": "직속",
+          "departments": [
+            "citizen-safety",
+            "youth-policy",
+            "pr-media",
+            "audit-inspection"
+          ]
+        },
+        {
+          "id": "planning-coordination",
+          "name": "기획조정실",
+          "type": "실·국",
+          "headName": "오철수",
+          "headRank": "지방부이사관",
+          "headPhone": "2023",
+          "departments": [
+            "policy-planning",
+            "council-legal",
+            "personnel",
+            "budget",
+            "info-comm",
+            "smart-city",
+            "general-affairs"
+          ]
+        },
+        {
+          "id": "admin-bureau",
+          "name": "행정국",
+          "type": "실·국",
+          "headName": "박진범",
+          "headRank": "지방서기관",
+          "headPhone": "2025",
+          "departments": [
+            "local-cooperation",
+            "citizen-passport",
+            "accounting",
+            "property-management"
+          ]
+        },
+        {
+          "id": "finance-economy",
+          "name": "재정경제국",
+          "type": "실·국",
+          "headName": "강호진",
+          "headRank": "지방서기관",
+          "headPhone": "2029",
+          "departments": [
+            "local-economy",
+            "job-support",
+            "taxation",
+            "acquisition-tax",
+            "tax-collection",
+            "hygiene"
+          ]
+        },
+        {
+          "id": "welfare-bureau",
+          "name": "복지국",
+          "type": "실·국",
+          "headName": "강태일",
+          "headRank": "지방서기관",
+          "headPhone": "2027",
+          "departments": [
+            "integrated-care",
+            "welfare-admin",
+            "senior-welfare",
+            "disabled-welfare",
+            "women-children",
+            "childcare"
+          ]
+        },
+        {
+          "id": "culture-education",
+          "name": "문화교육국",
+          "type": "실·국",
+          "headName": "문명우",
+          "headRank": "지방서기관",
+          "headPhone": "2039",
+          "departments": [
+            "culture-arts",
+            "future-education",
+            "dasan-learning",
+            "tourism-heritage",
+            "sports"
+          ]
+        },
+        {
+          "id": "environment-bureau",
+          "name": "환경국",
+          "type": "실·국",
+          "headName": "남경화",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "2037",
+          "departments": [
+            "env-policy",
+            "climate-energy",
+            "resource-recycle",
+            "eco-river",
+            "forest-greenery",
+            "park-creation"
+          ]
+        },
+        {
+          "id": "city-bureau",
+          "name": "도시국",
+          "type": "국·추진단",
+          "headName": "임선영",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "2031",
+          "departments": [
+            "urban-policy",
+            "urban-development",
+            "housing",
+            "architecture",
+            "arch-management",
+            "land-info",
+            "real-estate"
+          ]
+        },
+        {
+          "id": "transport-bureau",
+          "name": "교통국",
+          "type": "국·추진단",
+          "headName": "이상열",
+          "headRank": "지방서기관",
+          "headPhone": "2033",
+          "departments": [
+            "transport-policy",
+            "public-transit",
+            "parking-management",
+            "vehicle-management",
+            "road-construction"
+          ]
+        },
+        {
+          "id": "future-city-agency",
+          "name": "미래도시추진단",
+          "type": "국·추진단",
+          "headName": "양기영",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "2030",
+          "departments": [
+            "future-city",
+            "strategic-industry",
+            "infra-building",
+            "urban-regeneration"
+          ]
+        }
+      ]
+    },
+    "directAgencies": {
+      "title": "직속기관 및 사업소",
+      "description": "3개 보건소, 농업기술센터 및 4개 사업소",
+      "categories": [
+        {
+          "id": "nyj-health-center",
+          "name": "남양주보건소",
+          "type": "직속기관",
+          "headName": "정태식",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "2550",
+          "departments": [
+            "nyj-health-center-health-policy",
+            "nyj-health-center-health-promotion"
+          ]
+        },
+        {
+          "id": "pungyang-health-center",
+          "name": "남양주풍양보건소",
+          "type": "직속기관",
+          "headName": "이정미",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "4061",
+          "departments": [
+            "pungyang-health-center-health-admin",
+            "pungyang-health-center-health-promotion"
+          ]
+        },
+        {
+          "id": "dongbu-health-center",
+          "name": "동부보건소",
+          "type": "직속기관",
+          "headName": "신현주",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "8713",
+          "departments": [
+            "dongbu-health-center-health-admin",
+            "dongbu-health-center-health-promotion"
+          ]
+        },
+        {
+          "id": "agri-tech-center",
+          "name": "농업기술센터",
+          "type": "직속기관",
+          "headName": "문경석",
+          "headRank": "지방서기관",
+          "headPhone": "2570",
+          "departments": [
+            "agri-bio-policy",
+            "agri-tech",
+            "livestock-support"
+          ]
+        },
+        {
+          "id": "water-sewage-center",
+          "name": "상하수도관리센터",
+          "type": "사업소",
+          "headName": "박석주",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "2035",
+          "departments": [
+            "water-biz-operation",
+            "waterworks",
+            "sewage-treatment"
+          ]
+        },
+        {
+          "id": "road-mgmt-office",
+          "name": "도로관리사업소",
+          "type": "사업소",
+          "headName": "이정주",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "4280",
+          "departments": [
+            "road-biz-operation",
+            "road-maintenance",
+            "road-facility"
+          ]
+        },
+        {
+          "id": "park-mgmt-office",
+          "name": "공원녹지관리사업소",
+          "type": "사업소",
+          "headName": "주영상",
+          "headRank": "지방과학기술서기관",
+          "headPhone": "8528",
+          "departments": [
+            "park-maintenance",
+            "river-park-mgmt",
+            "recreation-facility"
+          ]
+        },
+        {
+          "id": "library-office",
+          "name": "도서관사업소",
+          "type": "사업소",
+          "headName": "김진배",
+          "headRank": "지방서기관",
+          "headPhone": "4808",
+          "departments": [
+            "dept-6778f1",
+            "library-ops-1",
+            "library-ops-2"
+          ]
+        }
+      ]
+    },
+    "welfareCenters": {
+      "title": "행정복지센터",
+      "description": "8대 생활권역 책임행정복지센터 및 16개 읍·면·동",
+      "zones": [
+        {
+          "zoneName": "와부조안 행정복지센터",
+          "zoneCode": "Z1",
+          "center": {
+            "name": "와부읍",
+            "headName": "이백영",
+            "headRank": "지방서기관",
+            "headPhone": "8001",
+            "divisionIds": [
+              "wabu-eup-dept-865b23",
+              "wabu-eup-dept-84b98a",
+              "wabu-eup-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "조안면",
+            "headName": "탁은희",
+            "headRank": "행정6급",
+            "headPhone": "8009",
+            "divisionIds": [
+              "joan-myeon"
+            ]
+          }
+        },
+        {
+          "zoneName": "진접오남 행정복지센터",
+          "zoneCode": "Z2",
+          "center": {
+            "name": "진접읍",
+            "headName": "이형숙",
+            "headRank": "지방서기관",
+            "headPhone": "8002",
+            "divisionIds": [
+              "jinjeop-eup-dept-865b23",
+              "jinjeop-eup-dept-84b98a",
+              "jinjeop-eup-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "오남읍",
+            "headName": "김병기",
+            "headRank": "행정5급",
+            "headPhone": "8005",
+            "divisionIds": [
+              "onam-eup"
+            ]
+          }
+        },
+        {
+          "zoneName": "화도수동 행정복지센터",
+          "zoneCode": "Z3",
+          "center": {
+            "name": "화도읍",
+            "headName": "유형식",
+            "headRank": "지방서기관",
+            "headPhone": "8003",
+            "divisionIds": [
+              "hwado-eup-dept-865b23",
+              "hwado-eup-dept-84b98a",
+              "hwado-eup-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "수동면",
+            "headName": "이진춘",
+            "headRank": "행정5급",
+            "headPhone": "8008",
+            "divisionIds": [
+              "sudong-myeon"
+            ]
+          }
+        },
+        {
+          "zoneName": "진건퇴계원 행정복지센터",
+          "zoneCode": "Z4",
+          "center": {
+            "name": "진건읍",
+            "headName": "김학철",
+            "headRank": "지방서기관",
+            "headPhone": "8004",
+            "divisionIds": [
+              "jingeon-eup-dept-865b23",
+              "jingeon-eup-dept-84b98a",
+              "jingeon-eup-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "퇴계원읍",
+            "headName": "최숙",
+            "headRank": "행정5급",
+            "headPhone": "8007",
+            "divisionIds": [
+              "toegyewon-eup"
+            ]
+          }
+        },
+        {
+          "zoneName": "호평평내 행정복지센터",
+          "zoneCode": "Z5",
+          "center": {
+            "name": "호평동",
+            "headName": "정순영",
+            "headRank": "지방서기관",
+            "headPhone": "8011",
+            "divisionIds": [
+              "hopyeong-dong-dept-865b23",
+              "hopyeong-dong-dept-84b98a",
+              "hopyeong-dong-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "평내동",
+            "headName": "정복선",
+            "headRank": "행정5급",
+            "headPhone": "8012",
+            "divisionIds": [
+              "pyeongnae-dong"
+            ]
+          }
+        },
+        {
+          "zoneName": "다산 행정복지센터",
+          "zoneCode": "Z6",
+          "center": {
+            "name": "다산1동",
+            "headName": "문길모",
+            "headRank": "지방서기관",
+            "headPhone": "8016",
+            "divisionIds": [
+              "dasan1-dong-dept-865b23",
+              "dasan1-dong-dept-84b98a",
+              "dasan1-dong-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "다산2동",
+            "headName": "안상영",
+            "headRank": "행정5급",
+            "headPhone": "8015",
+            "divisionIds": [
+              "dasan2-dong"
+            ]
+          }
+        },
+        {
+          "zoneName": "별내 행정복지센터",
+          "zoneCode": "Z7",
+          "center": {
+            "name": "별내동",
+            "headName": "이유미",
+            "headRank": "지방서기관",
+            "headPhone": "8490",
+            "divisionIds": [
+              "byeolnae-dong-dept-865b23",
+              "byeolnae-dong-dept-84b98a",
+              "byeolnae-dong-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "별내면",
+            "headName": "임석경",
+            "headRank": "행정5급",
+            "headPhone": "8006",
+            "divisionIds": [
+              "byeolnae-myeon"
+            ]
+          }
+        },
+        {
+          "zoneName": "금곡양정 행정복지센터",
+          "zoneCode": "Z8",
+          "center": {
+            "name": "금곡동",
+            "headName": "김의태",
+            "headRank": "행정5급",
+            "headPhone": "8013",
+            "divisionIds": [
+              "geumgok-dong-dept-4e9b6c",
+              "geumgok-dong-dept-2155d2"
+            ]
+          },
+          "subArea": {
+            "name": "양정동",
+            "headName": "홍은희",
+            "headRank": "행정5급",
+            "headPhone": "8014",
+            "divisionIds": [
+              "yangjeong-dong"
+            ]
+          }
+        }
+      ]
+    },
+    "council": {
+      "title": "남양주시의회",
+      "description": "남양주시의회 사무국 및 전문위원",
+      "secretaryGeneral": {
+        "title": "의회사무국장",
+        "name": "윤선기",
+        "rank": "지방서기관",
+        "phone": "2506"
+      },
+      "specialists": [
+        {
+          "title": "운영전문위원",
+          "name": "서용관",
+          "rank": "행정5급",
+          "phone": "2512"
+        },
+        {
+          "title": "자치행정전문위원",
+          "name": "왕은선",
+          "rank": "행정5급",
+          "phone": "2511"
+        },
+        {
+          "title": "복지환경전문위원",
+          "name": "조공선",
+          "rank": "행정6급",
+          "phone": "2510"
+        },
+        {
+          "title": "도시교통전문위원",
+          "name": "서진원",
+          "rank": "행정5급",
+          "phone": "8294"
+        }
+      ],
+      "teams": [
+        {
+          "team": "의정",
+          "head": "신상민",
+          "phone": "2522"
+        },
+        {
+          "team": "의사",
+          "head": "최정인",
+          "phone": "2521"
+        },
+        {
+          "team": "홍보",
+          "head": "박준완",
+          "phone": "2523"
+        },
+        {
+          "team": "정책지원",
+          "head": "김명래",
+          "phone": "8806"
+        },
+        {
+          "team": "운영지원",
+          "head": "조재형",
+          "phone": "8840"
+        }
+      ]
+    }
+  },
+  "departments": [
+    {
+      "id": "citizen-mayor",
+      "name": "시민시장 담당관",
+      "officialTitle": "시민시장 담당관",
+      "parentName": "시장 직속",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "시민시장 담당관",
+        "name": "안병찬",
+        "grade": "행정5급",
+        "extension": "4002",
+        "officePhone": "031-590-4002",
+        "mobilePhone": "010-8846-6738"
+      },
+      "teams": [
+        {
+          "name": "진심소통",
+          "fullName": "진심소통팀",
+          "leader": "김완종",
+          "extension": "4004",
+          "officePhone": "031-590-4004",
+          "mobilePhone": "010-2539-9392"
+        },
+        {
+          "name": "바로처리",
+          "fullName": "바로처리팀",
+          "leader": "노민용",
+          "extension": "7304",
+          "officePhone": "031-590-7304",
+          "mobilePhone": "010-7104-8703"
+        },
+        {
+          "name": "현장기동",
+          "fullName": "현장기동팀",
+          "leader": "백승규",
+          "extension": "7305",
+          "officePhone": "031-590-7305",
+          "mobilePhone": "010-3393-0642"
+        },
+        {
+          "name": "민원콜센터",
+          "fullName": "민원콜센터팀",
+          "leader": "이지민",
+          "extension": "8821",
+          "officePhone": "031-590-8821",
+          "mobilePhone": "010-6259-6479"
+        }
+      ]
+    },
+    {
+      "id": "citizen-safety",
+      "name": "시민안전관",
+      "officialTitle": "시민안전관",
+      "parentName": "부시장 직속",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "시민안전관",
+        "name": "백승조",
+        "grade": "시설6급",
+        "extension": "2160",
+        "officePhone": "031-590-2160",
+        "mobilePhone": "010-5551-3963"
+      },
+      "teams": [
+        {
+          "name": "안전기획",
+          "fullName": "안전기획팀",
+          "leader": "남혜강",
+          "extension": "2162",
+          "officePhone": "031-590-2162",
+          "mobilePhone": "010-8904-3590"
+        },
+        {
+          "name": "자연재난",
+          "fullName": "자연재난팀",
+          "leader": "홍영주",
+          "extension": "2781",
+          "officePhone": "031-590-2781",
+          "mobilePhone": "010-8919-1885"
+        },
+        {
+          "name": "사회재난",
+          "fullName": "사회재난팀",
+          "leader": "신상윤",
+          "extension": "2163",
+          "officePhone": "031-590-2163",
+          "mobilePhone": "010-2952-3636"
+        },
+        {
+          "name": "중대재해예방",
+          "fullName": "중대재해예방팀",
+          "leader": "남소연",
+          "extension": "2161",
+          "officePhone": "031-590-2161",
+          "mobilePhone": "010-4670-6584"
+        },
+        {
+          "name": "방재관리",
+          "fullName": "방재관리팀",
+          "leader": "강윤석",
+          "extension": "4095",
+          "officePhone": "031-590-4095",
+          "mobilePhone": "010-9920-0728"
+        },
+        {
+          "name": "재난상황",
+          "fullName": "재난상황팀",
+          "leader": "박원근",
+          "extension": "1351",
+          "officePhone": "031-590-1351",
+          "mobilePhone": "010-5574-3584"
+        }
+      ]
+    },
+    {
+      "id": "youth-policy",
+      "name": "청년 담당관",
+      "officialTitle": "청년 담당관",
+      "parentName": "부시장 직속",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "청년 담당관",
+        "name": "이윤희",
+        "grade": "행정6급",
+        "extension": "8291",
+        "officePhone": "031-590-8291",
+        "mobilePhone": "010-3035-8089"
+      },
+      "teams": [
+        {
+          "name": "청년정책",
+          "fullName": "청년정책팀",
+          "leader": "이향아",
+          "extension": "8518",
+          "officePhone": "031-590-8518",
+          "mobilePhone": "010-8983-9274"
+        },
+        {
+          "name": "청년지원",
+          "fullName": "청년지원팀",
+          "leader": "손미금",
+          "extension": "4089",
+          "officePhone": "031-590-4089",
+          "mobilePhone": "010-5659-9179"
+        },
+        {
+          "name": "청년일자리",
+          "fullName": "청년일자리팀",
+          "leader": "강인혜",
+          "extension": "8296",
+          "officePhone": "031-590-8296",
+          "mobilePhone": "010-4780-1059"
+        }
+      ]
+    },
+    {
+      "id": "pr-media",
+      "name": "홍보담당관",
+      "officialTitle": "홍보담당관",
+      "parentName": "부시장 직속",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "홍보담당관",
+        "name": "원경희",
+        "grade": "행정5급",
+        "extension": "2060",
+        "officePhone": "031-590-2060",
+        "mobilePhone": "010-4780-4297"
+      },
+      "teams": [
+        {
+          "name": "언론행정",
+          "fullName": "언론행정팀",
+          "leader": "김재호",
+          "extension": "2061",
+          "officePhone": "031-590-2061",
+          "mobilePhone": "010-4613-6990"
+        },
+        {
+          "name": "홍보기획",
+          "fullName": "홍보기획팀",
+          "leader": "김소라",
+          "extension": "2066",
+          "officePhone": "031-590-2066",
+          "mobilePhone": "010-3004-0227"
+        },
+        {
+          "name": "시정홍보",
+          "fullName": "시정홍보팀",
+          "leader": "김지희",
+          "extension": "2104",
+          "officePhone": "031-590-2104",
+          "mobilePhone": "010-2684-1966"
+        },
+        {
+          "name": "영상홍보",
+          "fullName": "영상홍보팀",
+          "leader": "이정훈",
+          "extension": "2673",
+          "officePhone": "031-590-2673",
+          "mobilePhone": "010-3733-8648"
+        }
+      ]
+    },
+    {
+      "id": "audit-inspection",
+      "name": "감  사  관",
+      "officialTitle": "감  사  관",
+      "parentName": "부시장 직속",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "감  사  관",
+        "name": "공석/직무대리",
+        "grade": "행정5급",
+        "extension": "2070",
+        "officePhone": "031-590-2070",
+        "mobilePhone": "미등록 (공석)"
+      },
+      "teams": [
+        {
+          "name": "감사",
+          "fullName": "감사팀",
+          "leader": "박호영",
+          "extension": "2071",
+          "officePhone": "031-590-2071",
+          "mobilePhone": "010-8880-4087"
+        },
+        {
+          "name": "기술감사",
+          "fullName": "기술감사팀",
+          "leader": "홍성찬",
+          "extension": "2072",
+          "officePhone": "031-590-2072",
+          "mobilePhone": "010-2433-5244"
+        },
+        {
+          "name": "조사",
+          "fullName": "조사팀",
+          "leader": "방재원",
+          "extension": "2073",
+          "officePhone": "031-590-2073",
+          "mobilePhone": "010-4721-2285"
+        },
+        {
+          "name": "민원조사",
+          "fullName": "민원조사팀",
+          "leader": "박기림",
+          "extension": "2047",
+          "officePhone": "031-590-2047",
+          "mobilePhone": "010-3240-4389"
+        },
+        {
+          "name": "청렴윤리",
+          "fullName": "청렴윤리팀",
+          "leader": "이정주",
+          "extension": "4720",
+          "officePhone": "031-590-4720",
+          "mobilePhone": "010-8605-0786"
+        }
+      ]
+    },
+    {
+      "id": "policy-planning",
+      "name": "정책기획과",
+      "officialTitle": "정책기획과장",
+      "parentName": "기획조정실",
+      "parentHead": "오철수",
+      "parentRank": "지방부이사관",
+      "head": {
+        "position": "정책기획과장",
+        "name": "김미선",
+        "grade": "행정5급",
+        "extension": "2050",
+        "officePhone": "031-590-2050",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "기획",
+          "fullName": "기획팀",
+          "leader": "최익규",
+          "extension": "2051",
+          "officePhone": "031-590-2051",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정책",
+          "fullName": "정책팀",
+          "leader": "김미화",
+          "extension": "7022",
+          "officePhone": "031-590-7022",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "조직관리",
+          "fullName": "조직관리팀",
+          "leader": "한상일",
+          "extension": "8931",
+          "officePhone": "031-590-8931",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "성과관리",
+          "fullName": "성과관리팀",
+          "leader": "정윤경",
+          "extension": "2091",
+          "officePhone": "031-590-2091",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "인구정책",
+          "fullName": "인구정책팀",
+          "leader": "이지영",
+          "extension": "4087",
+          "officePhone": "031-590-4087",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "council-legal",
+      "name": "의회법무과",
+      "officialTitle": "의회법무과장",
+      "parentName": "기획조정실",
+      "parentHead": "오철수",
+      "parentRank": "지방부이사관",
+      "head": {
+        "position": "의회법무과장",
+        "name": "이봉규",
+        "grade": "행정5급",
+        "extension": "7311",
+        "officePhone": "031-590-7311",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "의회법무",
+          "fullName": "의회법무팀",
+          "leader": "김상협",
+          "extension": "7317",
+          "officePhone": "031-590-7317",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "납세자보호관",
+          "fullName": "납세자보호관팀",
+          "leader": "서은영",
+          "extension": "3989",
+          "officePhone": "031-590-3989",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "송무",
+          "fullName": "송무팀",
+          "leader": "장상원",
+          "extension": "7313",
+          "officePhone": "031-590-7313",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "규제개혁",
+          "fullName": "규제개혁팀",
+          "leader": "안재현",
+          "extension": "7310",
+          "officePhone": "031-590-7310",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "법률지원",
+          "fullName": "법률지원팀",
+          "leader": "장윤정",
+          "extension": "7321",
+          "officePhone": "031-590-7321",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "personnel",
+      "name": "인사과",
+      "officialTitle": "인사과장",
+      "parentName": "기획조정실",
+      "parentHead": "오철수",
+      "parentRank": "지방부이사관",
+      "head": {
+        "position": "인사과장",
+        "name": "김선미",
+        "grade": "행정5급",
+        "extension": "8930",
+        "officePhone": "031-590-8930",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "인사기획",
+          "fullName": "인사기획팀",
+          "leader": "신경주",
+          "extension": "2811",
+          "officePhone": "031-590-2811",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "인사운영",
+          "fullName": "인사운영팀",
+          "leader": "김연숙",
+          "extension": "2113",
+          "officePhone": "031-590-2113",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "인재양성",
+          "fullName": "인재양성팀",
+          "leader": "이중협",
+          "extension": "2115",
+          "officePhone": "031-590-2115",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "노사협력",
+          "fullName": "노사협력팀",
+          "leader": "신서은",
+          "extension": "2101",
+          "officePhone": "031-590-2101",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "budget",
+      "name": "예산과",
+      "officialTitle": "예산과장",
+      "parentName": "기획조정실",
+      "parentHead": "오철수",
+      "parentRank": "지방부이사관",
+      "head": {
+        "position": "예산과장",
+        "name": "엄우원",
+        "grade": "행정5급",
+        "extension": "4640",
+        "officePhone": "031-590-4640",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "예산",
+          "fullName": "예산팀",
+          "leader": "최정훈",
+          "extension": "2052",
+          "officePhone": "031-590-2052",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "재정심사",
+          "fullName": "재정심사팀",
+          "leader": "손덕호",
+          "extension": "4704",
+          "officePhone": "031-590-4704",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공공기관관리",
+          "fullName": "공공기관관리팀",
+          "leader": "문인철",
+          "extension": "2825",
+          "officePhone": "031-590-2825",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "info-comm",
+      "name": "정보통신과",
+      "officialTitle": "정보통신과장",
+      "parentName": "기획조정실",
+      "parentHead": "오철수",
+      "parentRank": "지방부이사관",
+      "head": {
+        "position": "정보통신과장",
+        "name": "박현순",
+        "grade": "전산6급",
+        "extension": "2080",
+        "officePhone": "031-590-2080",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "정보기획",
+          "fullName": "정보기획팀",
+          "leader": "최선화",
+          "extension": "2084",
+          "officePhone": "031-590-2084",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정보보호",
+          "fullName": "정보보호팀",
+          "leader": "김지혜",
+          "extension": "4308",
+          "officePhone": "031-590-4308",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "행정정보",
+          "fullName": "행정정보팀",
+          "leader": "김애림",
+          "extension": "2087",
+          "officePhone": "031-590-2087",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정보통신",
+          "fullName": "정보통신팀",
+          "leader": "최종필",
+          "extension": "2300",
+          "officePhone": "031-590-2300",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "통신민원",
+          "fullName": "통신민원팀",
+          "leader": "백구현",
+          "extension": "4300",
+          "officePhone": "031-590-4300",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "smart-city",
+      "name": "스마트도시과",
+      "officialTitle": "스마트도시 과장",
+      "parentName": "기획조정실",
+      "parentHead": "오철수",
+      "parentRank": "지방부이사관",
+      "head": {
+        "position": "스마트도시 과장",
+        "name": "백희진",
+        "grade": "행정5급",
+        "extension": "8125",
+        "officePhone": "031-590-8125",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "AI전략",
+          "fullName": "AI전략팀",
+          "leader": "정미진",
+          "extension": "8139",
+          "officePhone": "031-590-8139",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "빅테이터",
+          "fullName": "빅테이터팀",
+          "leader": "김현길",
+          "extension": "2018",
+          "officePhone": "031-590-2018",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "스마트영상정보",
+          "fullName": "스마트영상정보팀",
+          "leader": "박은정",
+          "extension": "2100",
+          "officePhone": "031-590-2100",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지능형교통정보",
+          "fullName": "지능형교통정보팀",
+          "leader": "박창민",
+          "extension": "8180",
+          "officePhone": "031-590-8180",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "general-affairs",
+      "name": "행정지원과",
+      "officialTitle": "행정지원과장",
+      "parentName": "기획조정실",
+      "parentHead": "오철수",
+      "parentRank": "지방부이사관",
+      "head": {
+        "position": "행정지원과장",
+        "name": "유인정",
+        "grade": "행정5급",
+        "extension": "2110",
+        "officePhone": "031-590-2110",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "총무",
+          "fullName": "총무팀",
+          "leader": "원은정",
+          "extension": "2111",
+          "officePhone": "031-590-2111",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "시정여론",
+          "fullName": "시정여론팀",
+          "leader": "남상명",
+          "extension": "2123",
+          "officePhone": "031-590-2123",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민방위",
+          "fullName": "민방위팀",
+          "leader": "남문우",
+          "extension": "2167",
+          "officePhone": "031-590-2167",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "직원복지",
+          "fullName": "직원복지팀",
+          "leader": "권미연",
+          "extension": "2280",
+          "officePhone": "031-590-2280",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "기록관리",
+          "fullName": "기록관리팀",
+          "leader": "이상훈",
+          "extension": "2116",
+          "officePhone": "031-590-2116",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "local-cooperation",
+      "name": "자치협력과",
+      "officialTitle": "자치협력과장",
+      "parentName": "행정국",
+      "parentHead": "박진범",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "자치협력과장",
+        "name": "최진희",
+        "grade": "행정5급",
+        "extension": "8914",
+        "officePhone": "031-590-8914",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "주민자치",
+          "fullName": "주민자치팀",
+          "leader": "김경은",
+          "extension": "8940",
+          "officePhone": "031-590-8940",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공동체",
+          "fullName": "공동체팀",
+          "leader": "이성애",
+          "extension": "2054",
+          "officePhone": "031-590-2054",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민간협력",
+          "fullName": "민간협력팀",
+          "leader": "조경수",
+          "extension": "8960",
+          "officePhone": "031-590-8960",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "교류협력",
+          "fullName": "교류협력팀",
+          "leader": "이현진",
+          "extension": "8626",
+          "officePhone": "031-590-8626",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "citizen-passport",
+      "name": "민원여권과",
+      "officialTitle": "민원여권과장",
+      "parentName": "행정국",
+      "parentHead": "박진범",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "민원여권과장",
+        "name": "김혜정",
+        "grade": "행정5급",
+        "extension": "2130",
+        "officePhone": "031-590-2130",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "민원행정",
+          "fullName": "민원행정팀",
+          "leader": "예지원",
+          "extension": "2136",
+          "officePhone": "031-590-2136",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "통합민원",
+          "fullName": "통합민원팀",
+          "leader": "이호숙",
+          "extension": "8241",
+          "officePhone": "031-590-8241",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "가족관계등록",
+          "fullName": "가족관계등록팀",
+          "leader": "최춘미",
+          "extension": "2134",
+          "officePhone": "031-590-2134",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "여권민원",
+          "fullName": "여권민원팀",
+          "leader": "반민정",
+          "extension": "7306",
+          "officePhone": "031-590-7306",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "accounting",
+      "name": "회계과",
+      "officialTitle": "회계과장",
+      "parentName": "행정국",
+      "parentHead": "박진범",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "회계과장",
+        "name": "김혜연",
+        "grade": "행정5급",
+        "extension": "2170",
+        "officePhone": "031-590-2170",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "경리",
+          "fullName": "경리팀",
+          "leader": "이혜원",
+          "extension": "2175",
+          "officePhone": "031-590-2175",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공사계약",
+          "fullName": "공사계약팀",
+          "leader": "이정희",
+          "extension": "2177",
+          "officePhone": "031-590-2177",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "용역물품계약",
+          "fullName": "용역물품계약팀",
+          "leader": "신명희",
+          "extension": "2331",
+          "officePhone": "031-590-2331",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "재정관리",
+          "fullName": "재정관리팀",
+          "leader": "박수연",
+          "extension": "4981",
+          "officePhone": "031-590-4981",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "property-management",
+      "name": "재산관리과",
+      "officialTitle": "재산관리과장",
+      "parentName": "행정국",
+      "parentHead": "박진범",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "재산관리과장",
+        "name": "임화인",
+        "grade": "행정6급",
+        "extension": "2120",
+        "officePhone": "031-590-2120",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "재산관리",
+          "fullName": "재산관리팀",
+          "leader": "장용규",
+          "extension": "2174",
+          "officePhone": "031-590-2174",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "청사조성",
+          "fullName": "청사조성팀",
+          "leader": "김대원",
+          "extension": "2203",
+          "officePhone": "031-590-2203",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "청사관리",
+          "fullName": "청사관리팀",
+          "leader": "김환기",
+          "extension": "3940",
+          "officePhone": "031-590-3940",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공공건축",
+          "fullName": "공공건축팀",
+          "leader": "장준호",
+          "extension": "3933",
+          "officePhone": "031-590-3933",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공용차량지원",
+          "fullName": "공용차량지원팀",
+          "leader": "윤희상",
+          "extension": "2041",
+          "officePhone": "031-590-2041",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "local-economy",
+      "name": "지역경제과",
+      "officialTitle": "지역경제과장",
+      "parentName": "재정경제국",
+      "parentHead": "강호진",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "지역경제과장",
+        "name": "박미경",
+        "grade": "행정5급",
+        "extension": "2270",
+        "officePhone": "031-590-2270",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "기업지원",
+          "fullName": "기업지원팀",
+          "leader": "김정회",
+          "extension": "2284",
+          "officePhone": "031-590-2284",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "기업SOS",
+          "fullName": "기업SOS팀",
+          "leader": "권태준",
+          "extension": "2736",
+          "officePhone": "031-590-2736",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공장설립지원",
+          "fullName": "공장설립지원팀",
+          "leader": "박해성",
+          "extension": "2285",
+          "officePhone": "031-590-2285",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "소비자경제",
+          "fullName": "소비자경제팀",
+          "leader": "구명숙",
+          "extension": "2271",
+          "officePhone": "031-590-2271",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "소상공인지원",
+          "fullName": "소상공인지원팀",
+          "leader": "정희승",
+          "extension": "4702",
+          "officePhone": "031-590-4702",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "상권행정",
+          "fullName": "상권행정팀",
+          "leader": "박세영",
+          "extension": "8622",
+          "officePhone": "031-590-8622",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "상권지원센터",
+          "fullName": "상권지원센터팀",
+          "leader": "이강인",
+          "extension": "2278",
+          "officePhone": "031-590-2278",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "job-support",
+      "name": "일자리지원과",
+      "officialTitle": "일자리지원 과장",
+      "parentName": "재정경제국",
+      "parentHead": "강호진",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "일자리지원 과장",
+        "name": "표용자",
+        "grade": "행정5급",
+        "extension": "2660",
+        "officePhone": "031-590-2660",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "일자리기획",
+          "fullName": "일자리기획팀",
+          "leader": "남궁은성",
+          "extension": "2320",
+          "officePhone": "031-590-2320",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "일자리사업",
+          "fullName": "일자리사업팀",
+          "leader": "신관철",
+          "extension": "8677",
+          "officePhone": "031-590-8677",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "일자리지원",
+          "fullName": "일자리지원팀",
+          "leader": "전민경",
+          "extension": "2678",
+          "officePhone": "031-590-2678",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "사회적경제",
+          "fullName": "사회적경제팀",
+          "leader": "김수진",
+          "extension": "8905",
+          "officePhone": "031-590-8905",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "노사교섭대응TF",
+          "fullName": "노사교섭대응TF팀",
+          "leader": "신관철",
+          "extension": "8677",
+          "officePhone": "031-590-8677",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "taxation",
+      "name": "세정과",
+      "officialTitle": "세정과장",
+      "parentName": "재정경제국",
+      "parentHead": "강호진",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "세정과장",
+        "name": "장동단",
+        "grade": "행정5급",
+        "extension": "2180",
+        "officePhone": "031-590-2180",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "세정기획",
+          "fullName": "세정기획팀",
+          "leader": "곽유진",
+          "extension": "2181",
+          "officePhone": "031-590-2181",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "재산세1",
+          "fullName": "재산세1팀",
+          "leader": "정금성",
+          "extension": "4044",
+          "officePhone": "031-590-4044",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "재산세2",
+          "fullName": "재산세2팀",
+          "leader": "이영훈",
+          "extension": "4016",
+          "officePhone": "031-590-4016",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "자동차세",
+          "fullName": "자동차세팀",
+          "leader": "최지숙",
+          "extension": "4011",
+          "officePhone": "031-590-4011",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개인지방소득세",
+          "fullName": "개인지방소득세팀",
+          "leader": "이순명",
+          "extension": "2182",
+          "officePhone": "031-590-2182",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "법인지방소득세",
+          "fullName": "법인지방소득세팀",
+          "leader": "진보섭",
+          "extension": "3971",
+          "officePhone": "031-590-3971",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주택평가",
+          "fullName": "주택평가팀",
+          "leader": "한현희",
+          "extension": "2542",
+          "officePhone": "031-590-2542",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "세원관리TF",
+          "fullName": "세원관리TF팀",
+          "leader": "전원주",
+          "extension": "5385",
+          "officePhone": "031-590-5385",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "acquisition-tax",
+      "name": "취득세과",
+      "officialTitle": "취득세과장",
+      "parentName": "재정경제국",
+      "parentHead": "강호진",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "취득세과장",
+        "name": "한승화",
+        "grade": "행정5급",
+        "extension": "2200",
+        "officePhone": "031-590-2200",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "취득세관리",
+          "fullName": "취득세관리팀",
+          "leader": "안윤섭",
+          "extension": "2191",
+          "officePhone": "031-590-2191",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "법인세무조사",
+          "fullName": "법인세무조사팀",
+          "leader": "이은아",
+          "extension": "2201",
+          "officePhone": "031-590-2201",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "일반세무조사",
+          "fullName": "일반세무조사팀",
+          "leader": "김근영",
+          "extension": "4545",
+          "officePhone": "031-590-4545",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "감면조사",
+          "fullName": "감면조사팀",
+          "leader": "김상률",
+          "extension": "4037",
+          "officePhone": "031-590-4037",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "부동산취득세",
+          "fullName": "부동산취득세팀",
+          "leader": "김삼중",
+          "extension": "2192",
+          "officePhone": "031-590-2192",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "차량취득세",
+          "fullName": "차량취득세팀",
+          "leader": "박용운",
+          "extension": "4024",
+          "officePhone": "031-590-4024",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "tax-collection",
+      "name": "징수과",
+      "officialTitle": "징수과장",
+      "parentName": "재정경제국",
+      "parentHead": "강호진",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "징수과장",
+        "name": "정월용",
+        "grade": "세무6급",
+        "extension": "2190",
+        "officePhone": "031-590-2190",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "징수기획",
+          "fullName": "징수기획팀",
+          "leader": "윤창호",
+          "extension": "2198",
+          "officePhone": "031-590-2198",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지방세체납관리1",
+          "fullName": "지방세체납관리1팀",
+          "leader": "김용남",
+          "extension": "4295",
+          "officePhone": "031-590-4295",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지방세체납관리2",
+          "fullName": "지방세체납관리2팀",
+          "leader": "이정림",
+          "extension": "8735",
+          "officePhone": "031-590-8735",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "세외수입",
+          "fullName": "세외수입팀",
+          "leader": "조미연",
+          "extension": "2185",
+          "officePhone": "031-590-2185",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "세외수입체납관리",
+          "fullName": "세외수입체납관리팀",
+          "leader": "김진희",
+          "extension": "4514",
+          "officePhone": "031-590-4514",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "체납기동",
+          "fullName": "체납기동팀",
+          "leader": "최용철",
+          "extension": "8872",
+          "officePhone": "031-590-8872",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "세입관리",
+          "fullName": "세입관리팀",
+          "leader": "서문정",
+          "extension": "2195",
+          "officePhone": "031-590-2195",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "소액체납관리TF",
+          "fullName": "소액체납관리TF팀",
+          "leader": "윤창호",
+          "extension": "2198",
+          "officePhone": "031-590-2198",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "hygiene",
+      "name": "위생과",
+      "officialTitle": "위생과장",
+      "parentName": "재정경제국",
+      "parentHead": "강호진",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "위생과장",
+        "name": "황문희",
+        "grade": "행정5급",
+        "extension": "2230",
+        "officePhone": "031-590-2230",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "위생기획",
+          "fullName": "위생기획팀",
+          "leader": "성수진",
+          "extension": "2231",
+          "officePhone": "031-590-2231",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "위생민원1",
+          "fullName": "위생민원1팀",
+          "leader": "최현숙",
+          "extension": "3947",
+          "officePhone": "031-590-3947",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "위생민원2",
+          "fullName": "위생민원2팀",
+          "leader": "김현진",
+          "extension": "3977",
+          "officePhone": "031-590-3977",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "위생관리",
+          "fullName": "위생관리팀",
+          "leader": "이미현",
+          "extension": "3981",
+          "officePhone": "031-590-3981",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "위생안전",
+          "fullName": "위생안전팀",
+          "leader": "황경환",
+          "extension": "2233",
+          "officePhone": "031-590-2233",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "식품유통",
+          "fullName": "식품유통팀",
+          "leader": "정미이",
+          "extension": "1371",
+          "officePhone": "031-590-1371",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "integrated-care",
+      "name": "통합돌봄과",
+      "officialTitle": "통합돌봄과장",
+      "parentName": "복지국",
+      "parentHead": "강태일",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "통합돌봄과장",
+        "name": "노영광",
+        "grade": "사회복지5급",
+        "extension": "8660",
+        "officePhone": "031-590-8660",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "돌봄정책",
+          "fullName": "돌봄정책팀",
+          "leader": "박세현",
+          "extension": "8661",
+          "officePhone": "031-590-8661",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "돌봄지원",
+          "fullName": "돌봄지원팀",
+          "leader": "박승현",
+          "extension": "6741",
+          "officePhone": "031-590-6741",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "돌봄협력",
+          "fullName": "돌봄협력팀",
+          "leader": "신선웅",
+          "extension": "8663",
+          "officePhone": "031-590-8663",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "통합사례관리",
+          "fullName": "통합사례관리팀",
+          "leader": "최정선",
+          "extension": "8851",
+          "officePhone": "031-590-8851",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "가족다문화",
+          "fullName": "가족다문화팀",
+          "leader": "김선영",
+          "extension": "8120",
+          "officePhone": "031-590-8120",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "welfare-admin",
+      "name": "복지행정과",
+      "officialTitle": "복지행정과장",
+      "parentName": "복지국",
+      "parentHead": "강태일",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지행정과장",
+        "name": "김용태",
+        "grade": "행정5급",
+        "extension": "4343",
+        "officePhone": "031-590-4343",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "보훈",
+          "fullName": "보훈팀",
+          "leader": "송원재",
+          "extension": "8405",
+          "officePhone": "031-590-8405",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "생활보장",
+          "fullName": "생활보장팀",
+          "leader": "강연수",
+          "extension": "2801",
+          "officePhone": "031-590-2801",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "의료급여",
+          "fullName": "의료급여팀",
+          "leader": "최정화",
+          "extension": "2366",
+          "officePhone": "031-590-2366",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "자활지원",
+          "fullName": "자활지원팀",
+          "leader": "문경수",
+          "extension": "2212",
+          "officePhone": "031-590-2212",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "senior-welfare",
+      "name": "노인복지과",
+      "officialTitle": "노인복지과장",
+      "parentName": "복지국",
+      "parentHead": "강태일",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "노인복지과장",
+        "name": "김윤영",
+        "grade": "사회복지6급",
+        "extension": "8890",
+        "officePhone": "031-590-8890",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "노인정책",
+          "fullName": "노인정책팀",
+          "leader": "이수정",
+          "extension": "8891",
+          "officePhone": "031-590-8891",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "노인지원",
+          "fullName": "노인지원팀",
+          "leader": "이주희",
+          "extension": "8901",
+          "officePhone": "031-590-8901",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "노인시설지원",
+          "fullName": "노인시설지원팀",
+          "leader": "김웅규",
+          "extension": "2261",
+          "officePhone": "031-590-2261",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "노인시설지도",
+          "fullName": "노인시설지도팀",
+          "leader": "허미란",
+          "extension": "8828",
+          "officePhone": "031-590-8828",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "장묘문화",
+          "fullName": "장묘문화팀",
+          "leader": "박영미",
+          "extension": "8900",
+          "officePhone": "031-590-8900",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "disabled-welfare",
+      "name": "장애인복지과",
+      "officialTitle": "장애인복지 과장",
+      "parentName": "복지국",
+      "parentHead": "강태일",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "장애인복지 과장",
+        "name": "이문정",
+        "grade": "사회복지5급",
+        "extension": "8301",
+        "officePhone": "031-590-8301",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "장애인정책",
+          "fullName": "장애인정책팀",
+          "leader": "최종희",
+          "extension": "8302",
+          "officePhone": "031-590-8302",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "장애인지원",
+          "fullName": "장애인지원팀",
+          "leader": "김송미",
+          "extension": "2217",
+          "officePhone": "031-590-2217",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "발달장애지원",
+          "fullName": "발달장애지원팀",
+          "leader": "박지우",
+          "extension": "8985",
+          "officePhone": "031-590-8985",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "장애인시설",
+          "fullName": "장애인시설팀",
+          "leader": "김태임",
+          "extension": "8892",
+          "officePhone": "031-590-8892",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "women-children",
+      "name": "여성아동과",
+      "officialTitle": "여성아동과장",
+      "parentName": "복지국",
+      "parentHead": "강태일",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "여성아동과장",
+        "name": "배진위",
+        "grade": "사회복지5급",
+        "extension": "4550",
+        "officePhone": "031-590-4550",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "여성정책",
+          "fullName": "여성정책팀",
+          "leader": "홍주희",
+          "extension": "2267",
+          "officePhone": "031-590-2267",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "아동친화",
+          "fullName": "아동친화팀",
+          "leader": "정진희",
+          "extension": "8471",
+          "officePhone": "031-590-8471",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "아동보호",
+          "fullName": "아동보호팀",
+          "leader": "심수희",
+          "extension": "1470",
+          "officePhone": "031-590-1470",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "아동시설",
+          "fullName": "아동시설팀",
+          "leader": "김수미",
+          "extension": "8121",
+          "officePhone": "031-590-8121",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "돌봄시설",
+          "fullName": "돌봄시설팀",
+          "leader": "정연희",
+          "extension": "8566",
+          "officePhone": "031-590-8566",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "드림스타트",
+          "fullName": "드림스타트팀",
+          "leader": "송정연",
+          "extension": "8664",
+          "officePhone": "031-590-8664",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "childcare",
+      "name": "보육과",
+      "officialTitle": "보육과장",
+      "parentName": "복지국",
+      "parentHead": "강태일",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "보육과장",
+        "name": "박선영",
+        "grade": "행정5급",
+        "extension": "2260",
+        "officePhone": "031-590-2260",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "보육정책",
+          "fullName": "보육정책팀",
+          "leader": "최미향",
+          "extension": "2263",
+          "officePhone": "031-590-2263",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "보육사업",
+          "fullName": "보육사업팀",
+          "leader": "양혁진",
+          "extension": "1965",
+          "officePhone": "031-590-1965",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "보육지원1",
+          "fullName": "보육지원1팀",
+          "leader": "박진환",
+          "extension": "2262",
+          "officePhone": "031-590-2262",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "보육지원2",
+          "fullName": "보육지원2팀",
+          "leader": "김미혜",
+          "extension": "8312",
+          "officePhone": "031-590-8312",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "보육지도",
+          "fullName": "보육지도팀",
+          "leader": "오민영",
+          "extension": "3941",
+          "officePhone": "031-590-3941",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "culture-arts",
+      "name": "문화예술과",
+      "officialTitle": "문화예술과장",
+      "parentName": "문화교육국",
+      "parentHead": "문명우",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "문화예술과장",
+        "name": "이주연",
+        "grade": "행정5급",
+        "extension": "2470",
+        "officePhone": "031-590-2470",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "문화정책",
+          "fullName": "문화정책팀",
+          "leader": "김 설",
+          "extension": "2473",
+          "officePhone": "031-590-2473",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "예술진흥",
+          "fullName": "예술진흥팀",
+          "leader": "강종인",
+          "extension": "2476",
+          "officePhone": "031-590-2476",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공연축제",
+          "fullName": "공연축제팀",
+          "leader": "김순현",
+          "extension": "8565",
+          "officePhone": "031-590-8565",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "시립박물관운영",
+          "fullName": "시립박물관운영팀",
+          "leader": "이하경",
+          "extension": "8537",
+          "officePhone": "031-590-8537",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "future-education",
+      "name": "미래교육과",
+      "officialTitle": "미래교육과장",
+      "parentName": "문화교육국",
+      "parentHead": "문명우",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "미래교육과장",
+        "name": "방희선",
+        "grade": "행정5급",
+        "extension": "2580",
+        "officePhone": "031-590-2580",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "미래교육",
+          "fullName": "미래교육팀",
+          "leader": "윤희정",
+          "extension": "2138",
+          "officePhone": "031-590-2138",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "교육협력",
+          "fullName": "교육협력팀",
+          "leader": "안은경",
+          "extension": "2105",
+          "officePhone": "031-590-2105",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "진로교육",
+          "fullName": "진로교육팀",
+          "leader": "공상원",
+          "extension": "1490",
+          "officePhone": "031-590-1490",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "청소년육성",
+          "fullName": "청소년육성팀",
+          "leader": "장길자",
+          "extension": "4496",
+          "officePhone": "031-590-4496",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "청소년지원",
+          "fullName": "청소년지원팀",
+          "leader": "손숙희",
+          "extension": "3967",
+          "officePhone": "031-590-3967",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dasan-learning",
+      "name": "다산평생학습과",
+      "officialTitle": "다산평생학습과장",
+      "parentName": "문화교육국",
+      "parentHead": "문명우",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "다산평생학습과장",
+        "name": "최인영",
+        "grade": "행정5급",
+        "extension": "4768",
+        "officePhone": "031-590-4768",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "다산정약용브랜드",
+          "fullName": "다산정약용브랜드팀",
+          "leader": "이인숙",
+          "extension": "4928",
+          "officePhone": "031-590-4928",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "다산정약용",
+          "fullName": "다산정약용팀",
+          "leader": "유제성",
+          "extension": "8842",
+          "officePhone": "031-590-8842",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "평생학습기획",
+          "fullName": "평생학습기획팀",
+          "leader": "박재성",
+          "extension": "8248",
+          "officePhone": "031-590-8248",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "평생학습운영",
+          "fullName": "평생학습운영팀",
+          "leader": "이대희",
+          "extension": "4498",
+          "officePhone": "031-590-4498",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "인생다모작",
+          "fullName": "인생다모작팀",
+          "leader": "김후남",
+          "extension": "5318",
+          "officePhone": "031-590-5318",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "tourism-heritage",
+      "name": "관광유산과",
+      "officialTitle": "관광유산과장",
+      "parentName": "문화교육국",
+      "parentHead": "문명우",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "관광유산과장",
+        "name": "홍성희",
+        "grade": "행정5급",
+        "extension": "4760",
+        "officePhone": "031-590-4760",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "관광기획",
+          "fullName": "관광기획팀",
+          "leader": "김낙용",
+          "extension": "2472",
+          "officePhone": "031-590-2472",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화유산",
+          "fullName": "문화유산팀",
+          "leader": "고현수",
+          "extension": "2064",
+          "officePhone": "031-590-2064",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "종무",
+          "fullName": "종무팀",
+          "leader": "김수진",
+          "extension": "4922",
+          "officePhone": "031-590-4922",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "관광시설",
+          "fullName": "관광시설팀",
+          "leader": "정필영",
+          "extension": "5369",
+          "officePhone": "031-590-5369",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "name": "체육과",
+      "officialTitle": "체육과장",
+      "parentName": "문화교육국",
+      "parentHead": "문명우",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "체육과장",
+        "name": "김영민",
+        "grade": "시설5급",
+        "extension": "2140",
+        "officePhone": "031-590-2140",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "체육정책",
+          "fullName": "체육정책팀",
+          "leader": "박상목",
+          "extension": "2145",
+          "officePhone": "031-590-2145",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "생활체육",
+          "fullName": "생활체육팀",
+          "leader": "진선희",
+          "extension": "4337",
+          "officePhone": "031-590-4337",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "체육시설조성",
+          "fullName": "체육시설조성팀",
+          "leader": "김주성",
+          "extension": "2147",
+          "officePhone": "031-590-2147",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "체육시설관리",
+          "fullName": "체육시설관리팀",
+          "leader": "이병열",
+          "extension": "2144",
+          "officePhone": "031-590-2144",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "env-policy",
+      "name": "환경정책과",
+      "officialTitle": "환경정책과장",
+      "parentName": "환경국",
+      "parentHead": "남경화",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "환경정책과장",
+        "name": "박경분",
+        "grade": "환경5급",
+        "extension": "2240",
+        "officePhone": "031-590-2240",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "환경정책",
+          "fullName": "환경정책팀",
+          "leader": "이원주",
+          "extension": "2241",
+          "officePhone": "031-590-2241",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "자연환경",
+          "fullName": "자연환경팀",
+          "leader": "김선교",
+          "extension": "2844",
+          "officePhone": "031-590-2844",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "수질관리",
+          "fullName": "수질관리팀",
+          "leader": "김재민",
+          "extension": "2242",
+          "officePhone": "031-590-2242",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "오염총량",
+          "fullName": "오염총량팀",
+          "leader": "엄태호",
+          "extension": "2335",
+          "officePhone": "031-590-2335",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "상수원관리",
+          "fullName": "상수원관리팀",
+          "leader": "김준완",
+          "extension": "2650",
+          "officePhone": "031-590-2650",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "에코타운조성TF",
+          "fullName": "에코타운조성TF팀",
+          "leader": "심현준",
+          "extension": "4642",
+          "officePhone": "031-590-4642",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "climate-energy",
+      "name": "기후에너지과",
+      "officialTitle": "기후에너지 과장",
+      "parentName": "환경국",
+      "parentHead": "남경화",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "기후에너지 과장",
+        "name": "김운탁",
+        "grade": "공업5급",
+        "extension": "4795",
+        "officePhone": "031-590-4795",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "기후환경",
+          "fullName": "기후환경팀",
+          "leader": "강정모",
+          "extension": "2329",
+          "officePhone": "031-590-2329",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "대기환경",
+          "fullName": "대기환경팀",
+          "leader": "김인우",
+          "extension": "2243",
+          "officePhone": "031-590-2243",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "미세먼지대응",
+          "fullName": "미세먼지대응팀",
+          "leader": "홍기남",
+          "extension": "2273",
+          "officePhone": "031-590-2273",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "에너지",
+          "fullName": "에너지팀",
+          "leader": "이재희",
+          "extension": "2360",
+          "officePhone": "031-590-2360",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "수소산업",
+          "fullName": "수소산업팀",
+          "leader": "김용연",
+          "extension": "2723",
+          "officePhone": "031-590-2723",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "resource-recycle",
+      "name": "자원순환과",
+      "officialTitle": "자원순환과장",
+      "parentName": "환경국",
+      "parentHead": "남경화",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "자원순환과장",
+        "name": "양인수",
+        "grade": "환경5급",
+        "extension": "2250",
+        "officePhone": "031-590-2250",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자원순환정책",
+          "fullName": "자원순환정책팀",
+          "leader": "이경선",
+          "extension": "2251",
+          "officePhone": "031-590-2251",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "폐기물관리",
+          "fullName": "폐기물관리팀",
+          "leader": "김태진",
+          "extension": "2252",
+          "officePhone": "031-590-2252",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "음식물자원화",
+          "fullName": "음식물자원화팀",
+          "leader": "김병조",
+          "extension": "2253",
+          "officePhone": "031-590-2253",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "자원시설",
+          "fullName": "자원시설팀",
+          "leader": "신덕진",
+          "extension": "2255",
+          "officePhone": "031-590-2255",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "재활용지원",
+          "fullName": "재활용지원팀",
+          "leader": "조하연",
+          "extension": "4254",
+          "officePhone": "031-590-4254",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "eco-river",
+      "name": "생태하천과",
+      "officialTitle": "생태하천과장",
+      "parentName": "환경국",
+      "parentHead": "남경화",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "생태하천과장",
+        "name": "안용성",
+        "grade": "시설6급",
+        "extension": "4340",
+        "officePhone": "031-590-4340",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "하천정책",
+          "fullName": "하천정책팀",
+          "leader": "신연진",
+          "extension": "2244",
+          "officePhone": "031-590-2244",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하천계획",
+          "fullName": "하천계획팀",
+          "leader": "김승래",
+          "extension": "8730",
+          "officePhone": "031-590-8730",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하천정비",
+          "fullName": "하천정비팀",
+          "leader": "김천호",
+          "extension": "2458",
+          "officePhone": "031-590-2458",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하천허가",
+          "fullName": "하천허가팀",
+          "leader": "박종수",
+          "extension": "8768",
+          "officePhone": "031-590-8768",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "forest-greenery",
+      "name": "산림녹지과",
+      "officialTitle": "산림녹지과장",
+      "parentName": "환경국",
+      "parentHead": "남경화",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "산림녹지과장",
+        "name": "이창균",
+        "grade": "녹지5급",
+        "extension": "2410",
+        "officePhone": "031-590-2410",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "산림정책",
+          "fullName": "산림정책팀",
+          "leader": "심현아",
+          "extension": "2413",
+          "officePhone": "031-590-2413",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산림자원",
+          "fullName": "산림자원팀",
+          "leader": "김현주",
+          "extension": "2341",
+          "officePhone": "031-590-2341",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산지개발1",
+          "fullName": "산지개발1팀",
+          "leader": "남형우",
+          "extension": "7025",
+          "officePhone": "031-590-7025",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산지개발2",
+          "fullName": "산지개발2팀",
+          "leader": "김종서",
+          "extension": "7004",
+          "officePhone": "031-590-7004",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산림보호",
+          "fullName": "산림보호팀",
+          "leader": "송새강",
+          "extension": "2343",
+          "officePhone": "031-590-2343",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "park-creation",
+      "name": "공원조성과",
+      "officialTitle": "공원조성 과장",
+      "parentName": "환경국",
+      "parentHead": "남경화",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "공원조성 과장",
+        "name": "이수정",
+        "grade": "녹지5급",
+        "extension": "8630",
+        "officePhone": "031-590-8630",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "공원녹지",
+          "fullName": "공원녹지팀",
+          "leader": "장효진",
+          "extension": "8641",
+          "officePhone": "031-590-8641",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공원조성1",
+          "fullName": "공원조성1팀",
+          "leader": "신동민",
+          "extension": "8632",
+          "officePhone": "031-590-8632",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공원조성2",
+          "fullName": "공원조성2팀",
+          "leader": "강지연",
+          "extension": "2418",
+          "officePhone": "031-590-2418",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "urban-policy",
+      "name": "도시정책과",
+      "officialTitle": "도시정책과장",
+      "parentName": "도시국",
+      "parentHead": "임선영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "도시정책과장",
+        "name": "김준모",
+        "grade": "시설5급",
+        "extension": "2350",
+        "officePhone": "031-590-2350",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "도시정책",
+          "fullName": "도시정책팀",
+          "leader": "김은희",
+          "extension": "2352",
+          "officePhone": "031-590-2352",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도시계획",
+          "fullName": "도시계획팀",
+          "leader": "함병기",
+          "extension": "2371",
+          "officePhone": "031-590-2371",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "시설계획",
+          "fullName": "시설계획팀",
+          "leader": "박철수",
+          "extension": "2372",
+          "officePhone": "031-590-2372",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지구단위계획",
+          "fullName": "지구단위계획팀",
+          "leader": "김윤곤",
+          "extension": "2353",
+          "officePhone": "031-590-2353",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도시계획상임기획",
+          "fullName": "도시계획상임기획팀",
+          "leader": "박재형",
+          "extension": "8886",
+          "officePhone": "031-590-8886",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "urban-development",
+      "name": "도시개발과",
+      "officialTitle": "도시개발과장",
+      "parentName": "도시국",
+      "parentHead": "임선영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "도시개발과장",
+        "name": "방화선",
+        "grade": "시설6급",
+        "extension": "7330",
+        "officePhone": "031-590-7330",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "개발행위1",
+          "fullName": "개발행위1팀",
+          "leader": "강향자",
+          "extension": "7339",
+          "officePhone": "031-590-7339",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개발행위2",
+          "fullName": "개발행위2팀",
+          "leader": "한현희",
+          "extension": "7331",
+          "officePhone": "031-590-7331",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개발행위3",
+          "fullName": "개발행위3팀",
+          "leader": "한동수",
+          "extension": "7343",
+          "officePhone": "031-590-7343",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개발행위4",
+          "fullName": "개발행위4팀",
+          "leader": "오광일",
+          "extension": "7344",
+          "officePhone": "031-590-7344",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "housing",
+      "name": "주택과",
+      "officialTitle": "주택과장",
+      "parentName": "도시국",
+      "parentHead": "임선영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "주택과장",
+        "name": "유병로",
+        "grade": "시설5급",
+        "extension": "2400",
+        "officePhone": "031-590-2400",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "주택행정",
+          "fullName": "주택행정팀",
+          "leader": "나권순",
+          "extension": "2401",
+          "officePhone": "031-590-2401",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주거복지",
+          "fullName": "주거복지팀",
+          "leader": "권진희",
+          "extension": "4899",
+          "officePhone": "031-590-4899",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주택사업1",
+          "fullName": "주택사업1팀",
+          "leader": "조현미",
+          "extension": "2402",
+          "officePhone": "031-590-2402",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주택사업2",
+          "fullName": "주택사업2팀",
+          "leader": "정혜원",
+          "extension": "2403",
+          "officePhone": "031-590-2403",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "name": "건축과",
+      "officialTitle": "건축과장",
+      "parentName": "도시국",
+      "parentHead": "임선영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "건축과장",
+        "name": "정보영",
+        "grade": "시설5급",
+        "extension": "2390",
+        "officePhone": "031-590-2390",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "건축행정",
+          "fullName": "건축행정팀",
+          "leader": "김성진",
+          "extension": "2398",
+          "officePhone": "031-590-2398",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축허가1",
+          "fullName": "건축허가1팀",
+          "leader": "정한수",
+          "extension": "5873",
+          "officePhone": "031-590-5873",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축허가2",
+          "fullName": "건축허가2팀",
+          "leader": "이예림",
+          "extension": "5438",
+          "officePhone": "031-590-5438",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축허가3",
+          "fullName": "건축허가3팀",
+          "leader": "박은정",
+          "extension": "5823",
+          "officePhone": "031-590-5823",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축허가4",
+          "fullName": "건축허가4팀",
+          "leader": "권순자",
+          "extension": "5872",
+          "officePhone": "031-590-5872",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개발제한구역허가1",
+          "fullName": "개발제한구역허가1팀",
+          "leader": "이진영",
+          "extension": "4805",
+          "officePhone": "031-590-4805",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개발제한구역허가2",
+          "fullName": "개발제한구역허가2팀",
+          "leader": "김태환",
+          "extension": "4278",
+          "officePhone": "031-590-4278",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "arch-management",
+      "name": "건축관리과",
+      "officialTitle": "건축관리과장",
+      "parentName": "도시국",
+      "parentHead": "임선영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "건축관리과장",
+        "name": "송성희",
+        "grade": "시설5급",
+        "extension": "8084",
+        "officePhone": "031-590-8084",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "건축관리",
+          "fullName": "건축관리팀",
+          "leader": "권혁민",
+          "extension": "1384",
+          "officePhone": "031-590-1384",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "집합건축물조사",
+          "fullName": "집합건축물조사팀",
+          "leader": "손미경",
+          "extension": "2404",
+          "officePhone": "031-590-2404",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공동주택관리",
+          "fullName": "공동주택관리팀",
+          "leader": "김현정",
+          "extension": "2408",
+          "officePhone": "031-590-2408",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지역건축안전센터",
+          "fullName": "지역건축안전센터팀",
+          "leader": "전용섭",
+          "extension": "1353",
+          "officePhone": "031-590-1353",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개발제한구역관리",
+          "fullName": "개발제한구역관리팀",
+          "leader": "강민진",
+          "extension": "2396",
+          "officePhone": "031-590-2396",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "land-info",
+      "name": "토지정보과",
+      "officialTitle": "토지정보과장",
+      "parentName": "도시국",
+      "parentHead": "임선영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "토지정보과장",
+        "name": "진상범",
+        "grade": "시설5급",
+        "extension": "2150",
+        "officePhone": "031-590-2150",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "토지민원1",
+          "fullName": "토지민원1팀",
+          "leader": "김동겸",
+          "extension": "2152",
+          "officePhone": "031-590-2152",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "토지민원2",
+          "fullName": "토지민원2팀",
+          "leader": "육경애",
+          "extension": "2156",
+          "officePhone": "031-590-2156",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지적측량",
+          "fullName": "지적측량팀",
+          "leader": "윤은정",
+          "extension": "8324",
+          "officePhone": "031-590-8324",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지적재조사",
+          "fullName": "지적재조사팀",
+          "leader": "길민영",
+          "extension": "3955",
+          "officePhone": "031-590-3955",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공간정보",
+          "fullName": "공간정보팀",
+          "leader": "이상현",
+          "extension": "2391",
+          "officePhone": "031-590-2391",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "real-estate",
+      "name": "부동산관리과",
+      "officialTitle": "부동산관리과장",
+      "parentName": "도시국",
+      "parentHead": "임선영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "부동산관리과장",
+        "name": "김미민",
+        "grade": "행정5급",
+        "extension": "2210",
+        "officePhone": "031-590-2210",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "부동산관리",
+          "fullName": "부동산관리팀",
+          "leader": "기지연",
+          "extension": "2151",
+          "officePhone": "031-590-2151",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지가조사",
+          "fullName": "지가조사팀",
+          "leader": "이화정",
+          "extension": "2154",
+          "officePhone": "031-590-2154",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "부동산정보",
+          "fullName": "부동산정보팀",
+          "leader": "이영미",
+          "extension": "2153",
+          "officePhone": "031-590-2153",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "부동산지도",
+          "fullName": "부동산지도팀",
+          "leader": "박준형",
+          "extension": "5414",
+          "officePhone": "031-590-5414",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로명주소",
+          "fullName": "도로명주소팀",
+          "leader": "김현정",
+          "extension": "2155",
+          "officePhone": "031-590-2155",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "transport-policy",
+      "name": "교통정책과",
+      "officialTitle": "교통정책과장",
+      "parentName": "교통국",
+      "parentHead": "이상열",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "교통정책과장",
+        "name": "김학진",
+        "grade": "행정5급",
+        "extension": "2420",
+        "officePhone": "031-590-2420",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "교통정책",
+          "fullName": "교통정책팀",
+          "leader": "이도현",
+          "extension": "2421",
+          "officePhone": "031-590-2421",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "철도기획",
+          "fullName": "철도기획팀",
+          "leader": "고영복",
+          "extension": "5388",
+          "officePhone": "031-590-5388",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "철도운영",
+          "fullName": "철도운영팀",
+          "leader": "오재경",
+          "extension": "0971",
+          "officePhone": "031-590-0971",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "교통체계개선",
+          "fullName": "교통체계개선팀",
+          "leader": "강성수",
+          "extension": "2291",
+          "officePhone": "031-590-2291",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "교통시설1",
+          "fullName": "교통시설1팀",
+          "leader": "이기정",
+          "extension": "8667",
+          "officePhone": "031-590-8667",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "교통시설2",
+          "fullName": "교통시설2팀",
+          "leader": "임덕진",
+          "extension": "5356",
+          "officePhone": "031-590-5356",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "public-transit",
+      "name": "대중교통과",
+      "officialTitle": "대중교통과장",
+      "parentName": "교통국",
+      "parentHead": "이상열",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "대중교통과장",
+        "name": "표강선",
+        "grade": "공업5급",
+        "extension": "2290",
+        "officePhone": "031-590-2290",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "버스행정",
+          "fullName": "버스행정팀",
+          "leader": "임경식",
+          "extension": "2292",
+          "officePhone": "031-590-2292",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "버스노선",
+          "fullName": "버스노선팀",
+          "leader": "김철준",
+          "extension": "4672",
+          "officePhone": "031-590-4672",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "택  시",
+          "fullName": "택  시팀",
+          "leader": "강일현",
+          "extension": "4680",
+          "officePhone": "031-590-4680",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "운수지도",
+          "fullName": "운수지도팀",
+          "leader": "이중환",
+          "extension": "2411",
+          "officePhone": "031-590-2411",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "버스시설TF",
+          "fullName": "버스시설TF팀",
+          "leader": "김병규",
+          "extension": "4397",
+          "officePhone": "031-590-4397",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "parking-management",
+      "name": "주차관리과",
+      "officialTitle": "주차관리과장",
+      "parentName": "교통국",
+      "parentHead": "이상열",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "주차관리과장",
+        "name": "김병한",
+        "grade": "공업5급",
+        "extension": "8921",
+        "officePhone": "031-590-8921",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "주차계획",
+          "fullName": "주차계획팀",
+          "leader": "김지웅",
+          "extension": "8964",
+          "officePhone": "031-590-8964",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주차시설",
+          "fullName": "주차시설팀",
+          "leader": "김성진",
+          "extension": "5398",
+          "officePhone": "031-590-5398",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주차관리",
+          "fullName": "주차관리팀",
+          "leader": "조원형",
+          "extension": "2295",
+          "officePhone": "031-590-2295",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주차단속",
+          "fullName": "주차단속팀",
+          "leader": "김광섭",
+          "extension": "5396",
+          "officePhone": "031-590-5396",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "vehicle-management",
+      "name": "자동차관리과",
+      "officialTitle": "자동차관리 과장",
+      "parentName": "교통국",
+      "parentHead": "이상열",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "자동차관리 과장",
+        "name": "고경희",
+        "grade": "행정5급",
+        "extension": "2490",
+        "officePhone": "031-590-2490",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "차량관리",
+          "fullName": "차량관리팀",
+          "leader": "박정휘",
+          "extension": "4403",
+          "officePhone": "031-590-4403",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "차량사법경찰",
+          "fullName": "차량사법경찰팀",
+          "leader": "김미희",
+          "extension": "2294",
+          "officePhone": "031-590-2294",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "화물",
+          "fullName": "화물팀",
+          "leader": "유종형",
+          "extension": "1445",
+          "officePhone": "031-590-1445",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "차량등록",
+          "fullName": "차량등록팀",
+          "leader": "임정화",
+          "extension": "2133",
+          "officePhone": "031-590-2133",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "road-construction",
+      "name": "도로건설과",
+      "officialTitle": "도로건설과장",
+      "parentName": "교통국",
+      "parentHead": "이상열",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도로건설과장",
+        "name": "이태국",
+        "grade": "시설5급",
+        "extension": "2430",
+        "officePhone": "031-590-2430",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "건설행정",
+          "fullName": "건설행정팀",
+          "leader": "김준관",
+          "extension": "2431",
+          "officePhone": "031-590-2431",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로건설1",
+          "fullName": "도로건설1팀",
+          "leader": "윤웅상",
+          "extension": "2432",
+          "officePhone": "031-590-2432",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로건설2",
+          "fullName": "도로건설2팀",
+          "leader": "이원준",
+          "extension": "8771",
+          "officePhone": "031-590-8771",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민자도로",
+          "fullName": "민자도로팀",
+          "leader": "이상철",
+          "extension": "2362",
+          "officePhone": "031-590-2362",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로보상",
+          "fullName": "도로보상팀",
+          "leader": "박송희",
+          "extension": "2435",
+          "officePhone": "031-590-2435",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "future-city",
+      "name": "미래도시과",
+      "officialTitle": "미래도시과장",
+      "parentName": "미래도시추진단",
+      "parentHead": "양기영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "미래도시과장",
+        "name": "송승훈",
+        "grade": "시설5급",
+        "extension": "8950",
+        "officePhone": "031-590-8950",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "미래도시조성",
+          "fullName": "미래도시조성팀",
+          "leader": "표영애",
+          "extension": "8955",
+          "officePhone": "031-590-8955",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "경제왕숙",
+          "fullName": "경제왕숙팀",
+          "leader": "김재홍",
+          "extension": "8951",
+          "officePhone": "031-590-8951",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화왕숙",
+          "fullName": "문화왕숙팀",
+          "leader": "이동근",
+          "extension": "2854",
+          "officePhone": "031-590-2854",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공영개발",
+          "fullName": "공영개발팀",
+          "leader": "도경희",
+          "extension": "4749",
+          "officePhone": "031-590-4749",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "strategic-industry",
+      "name": "전략산업과",
+      "officialTitle": "전략산업과장",
+      "parentName": "미래도시추진단",
+      "parentHead": "양기영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "전략산업과장",
+        "name": "진수용",
+        "grade": "시설5급",
+        "extension": "7021",
+        "officePhone": "031-590-7021",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "전략산업정책",
+          "fullName": "전략산업정책팀",
+          "leader": "조가은",
+          "extension": "7370",
+          "officePhone": "031-590-7370",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "미래산업유치",
+          "fullName": "미래산업유치팀",
+          "leader": "김강희",
+          "extension": "7379",
+          "officePhone": "031-590-7379",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "융복합산업",
+          "fullName": "융복합산업팀",
+          "leader": "박주용",
+          "extension": "2281",
+          "officePhone": "031-590-2281",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "첨단산업단지",
+          "fullName": "첨단산업단지팀",
+          "leader": "고영수",
+          "extension": "2356",
+          "officePhone": "031-590-2356",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "infra-building",
+      "name": "기반조성과",
+      "officialTitle": "기반조성과장",
+      "parentName": "미래도시추진단",
+      "parentHead": "양기영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "기반조성과장",
+        "name": "전진하",
+        "grade": "시설5급",
+        "extension": "8187",
+        "officePhone": "031-590-8187",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "기반조성1",
+          "fullName": "기반조성1팀",
+          "leader": "박영란",
+          "extension": "4096",
+          "officePhone": "031-590-4096",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "기반조성2",
+          "fullName": "기반조성2팀",
+          "leader": "김우중",
+          "extension": "8188",
+          "officePhone": "031-590-8188",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "개발사업",
+          "fullName": "개발사업팀",
+          "leader": "김명연",
+          "extension": "2385",
+          "officePhone": "031-590-2385",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공공디자인",
+          "fullName": "공공디자인팀",
+          "leader": "이용민",
+          "extension": "2375",
+          "officePhone": "031-590-2375",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "urban-regeneration",
+      "name": "도시재생과",
+      "officialTitle": "도시재생과장",
+      "parentName": "미래도시추진단",
+      "parentHead": "양기영",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "도시재생과장",
+        "name": "한창오",
+        "grade": "시설5급",
+        "extension": "8650",
+        "officePhone": "031-590-8650",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "재생정책",
+          "fullName": "재생정책팀",
+          "leader": "정재욱",
+          "extension": "8652",
+          "officePhone": "031-590-8652",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도시정비1",
+          "fullName": "도시정비1팀",
+          "leader": "안여진",
+          "extension": "8751",
+          "officePhone": "031-590-8751",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도시정비2",
+          "fullName": "도시정비2팀",
+          "leader": "김철우",
+          "extension": "4316",
+          "officePhone": "031-590-4316",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "재생사업",
+          "fullName": "재생사업팀",
+          "leader": "김지우",
+          "extension": "2380",
+          "officePhone": "031-590-2380",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "nyj-health-center-health-policy",
+      "name": "보건정책과",
+      "officialTitle": "보건정책과장",
+      "parentName": "남양주보건소",
+      "parentHead": "정태식",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "보건정책과장",
+        "name": "김수현",
+        "grade": "보건5급",
+        "extension": "2551",
+        "officePhone": "031-590-2551",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "보건행정",
+          "fullName": "보건행정팀",
+          "leader": "장 욱",
+          "extension": "2552",
+          "officePhone": "031-590-2552",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "감염병관리",
+          "fullName": "감염병관리팀",
+          "leader": "장윤영",
+          "extension": "2553",
+          "officePhone": "031-590-2553",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "감염병대응",
+          "fullName": "감염병대응팀",
+          "leader": "이은경",
+          "extension": "7084",
+          "officePhone": "031-590-7084",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "의약",
+          "fullName": "의약팀",
+          "leader": "강성혜",
+          "extension": "2554",
+          "officePhone": "031-590-2554",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정신건강관리",
+          "fullName": "정신건강관리팀",
+          "leader": "김영미",
+          "extension": "2598",
+          "officePhone": "031-590-2598",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정신건강증진",
+          "fullName": "정신건강증진팀",
+          "leader": "문행심",
+          "extension": "4058",
+          "officePhone": "031-590-4058",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "2청사관리",
+          "fullName": "2청사관리팀",
+          "leader": "김철환",
+          "extension": "1443",
+          "officePhone": "031-590-1443",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "nyj-health-center-health-promotion",
+      "name": "건강증진과",
+      "officialTitle": "건강증진과장",
+      "parentName": "남양주보건소",
+      "parentHead": "정태식",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "건강증진과장",
+        "name": "이춘희",
+        "grade": "약무5급",
+        "extension": "2561",
+        "officePhone": "031-590-2561",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "건강증진",
+          "fullName": "건강증진팀",
+          "leader": "김세화",
+          "extension": "2565",
+          "officePhone": "031-590-2565",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "진료지원",
+          "fullName": "진료지원팀",
+          "leader": "김선영",
+          "extension": "2564",
+          "officePhone": "031-590-2564",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "모자보건",
+          "fullName": "모자보건팀",
+          "leader": "김주영",
+          "extension": "2563",
+          "officePhone": "031-590-2563",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건강생활",
+          "fullName": "건강생활팀",
+          "leader": "김지남",
+          "extension": "4212",
+          "officePhone": "031-590-4212",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "치매관리",
+          "fullName": "치매관리팀",
+          "leader": "홍성옥",
+          "extension": "8330",
+          "officePhone": "031-590-8330",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "pungyang-health-center-health-admin",
+      "name": "보건행정과",
+      "officialTitle": "보건행정과장",
+      "parentName": "남양주풍양보건소",
+      "parentHead": "이정미",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "보건행정과장",
+        "name": "김도형",
+        "grade": "간호5급",
+        "extension": "4066",
+        "officePhone": "031-590-4066",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "보건행정",
+          "fullName": "보건행정팀",
+          "leader": "전서현",
+          "extension": "4067",
+          "officePhone": "031-590-4067",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "감염병관리",
+          "fullName": "감염병관리팀",
+          "leader": "장미라",
+          "extension": "4080",
+          "officePhone": "031-590-4080",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "감염병대응",
+          "fullName": "감염병대응팀",
+          "leader": "김미숙",
+          "extension": "6986",
+          "officePhone": "031-590-6986",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "의약",
+          "fullName": "의약팀",
+          "leader": "강영단",
+          "extension": "4774",
+          "officePhone": "031-590-4774",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "pungyang-health-center-health-promotion",
+      "name": "건강증진과",
+      "officialTitle": "건강증진과장",
+      "parentName": "남양주풍양보건소",
+      "parentHead": "이정미",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "건강증진과장",
+        "name": "한연희",
+        "grade": "보건5급",
+        "extension": "6980",
+        "officePhone": "031-590-6980",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "건강증진",
+          "fullName": "건강증진팀",
+          "leader": "최은경",
+          "extension": "6981",
+          "officePhone": "031-590-6981",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "진료지원",
+          "fullName": "진료지원팀",
+          "leader": "김은실",
+          "extension": "4062",
+          "officePhone": "031-590-4062",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "모자보건",
+          "fullName": "모자보건팀",
+          "leader": "김현미",
+          "extension": "6996",
+          "officePhone": "031-590-6996",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건강생활",
+          "fullName": "건강생활팀",
+          "leader": "엄영란",
+          "extension": "5463",
+          "officePhone": "031-590-5463",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "치매관리",
+          "fullName": "치매관리팀",
+          "leader": "유수연",
+          "extension": "8362",
+          "officePhone": "031-590-8362",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dongbu-health-center-health-admin",
+      "name": "보건행정과",
+      "officialTitle": "보건행정과장",
+      "parentName": "동부보건소",
+      "parentHead": "신현주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "보건행정과장",
+        "name": "이철웅",
+        "grade": "보건6급",
+        "extension": "8740",
+        "officePhone": "031-590-8740",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "보건행정",
+          "fullName": "보건행정팀",
+          "leader": "한영선",
+          "extension": "8741",
+          "officePhone": "031-590-8741",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "감염병관리",
+          "fullName": "감염병관리팀",
+          "leader": "최은경",
+          "extension": "4362",
+          "officePhone": "031-590-4362",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "감염병대응",
+          "fullName": "감염병대응팀",
+          "leader": "조정희",
+          "extension": "7925",
+          "officePhone": "031-590-7925",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "의약",
+          "fullName": "의약팀",
+          "leader": "윤보미",
+          "extension": "8604",
+          "officePhone": "031-590-8604",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dongbu-health-center-health-promotion",
+      "name": "건강증진과",
+      "officialTitle": "건강증진과장",
+      "parentName": "동부보건소",
+      "parentHead": "신현주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "건강증진과장",
+        "name": "반애련",
+        "grade": "의료기술5급",
+        "extension": "579-7910",
+        "officePhone": "579-7910",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "건강증진",
+          "fullName": "건강증진팀",
+          "leader": "박찬미",
+          "extension": "5 77 99 1- 1",
+          "officePhone": "5 77 99 1- 1",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "진료지원",
+          "fullName": "진료지원팀",
+          "leader": "정혜윤",
+          "extension": "5 77 99 1- 2",
+          "officePhone": "5 77 99 1- 2",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "모자보건",
+          "fullName": "모자보건팀",
+          "leader": "김은주",
+          "extension": "5 77 99 1- 3",
+          "officePhone": "5 77 99 1- 3",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건강생활",
+          "fullName": "건강생활팀",
+          "leader": "윤옥희",
+          "extension": "5 77 99 1- 4",
+          "officePhone": "5 77 99 1- 4",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "치매관리",
+          "fullName": "치매관리팀",
+          "leader": "양아름",
+          "extension": "5 77 99 1- 5",
+          "officePhone": "5 77 99 1- 5",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "agri-bio-policy",
+      "name": "농생명정책과",
+      "officialTitle": "농생명정책과장",
+      "parentName": "농업기술센터",
+      "parentHead": "문경석",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "농생명정책과장",
+        "name": "조미경",
+        "grade": "농촌지도관",
+        "extension": "2310",
+        "officePhone": "031-590-2310",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "농업정책",
+          "fullName": "농업정책팀",
+          "leader": "김정호",
+          "extension": "2312",
+          "officePhone": "031-590-2312",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "농생명과학",
+          "fullName": "농생명과학팀",
+          "leader": "정지윤",
+          "extension": "4573",
+          "officePhone": "031-590-4573",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "농업인육성",
+          "fullName": "농업인육성팀",
+          "leader": "이기구",
+          "extension": "2573",
+          "officePhone": "031-590-2573",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "농업융합",
+          "fullName": "농업융합팀",
+          "leader": "박유미",
+          "extension": "2572",
+          "officePhone": "031-590-2572",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "농지관리",
+          "fullName": "농지관리팀",
+          "leader": "이기석",
+          "extension": "2314",
+          "officePhone": "031-590-2314",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "agri-tech",
+      "name": "농업기술과",
+      "officialTitle": "농업기술과장",
+      "parentName": "농업기술센터",
+      "parentHead": "문경석",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "농업기술과장",
+        "name": "이장범",
+        "grade": "농촌지도관",
+        "extension": "4560",
+        "officePhone": "031-590-4560",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "농업기술",
+          "fullName": "농업기술팀",
+          "leader": "김병준",
+          "extension": "2571",
+          "officePhone": "031-590-2571",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "농업브랜드특화",
+          "fullName": "농업브랜드특화팀",
+          "leader": "황현섭",
+          "extension": "2318",
+          "officePhone": "031-590-2318",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "친환경농업",
+          "fullName": "친환경농업팀",
+          "leader": "김종환",
+          "extension": "4715",
+          "officePhone": "031-590-4715",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "농업유통",
+          "fullName": "농업유통팀",
+          "leader": "변동균",
+          "extension": "8410",
+          "officePhone": "031-590-8410",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "작물보호",
+          "fullName": "작물보호팀",
+          "leader": "도란주",
+          "extension": "2576",
+          "officePhone": "031-590-2576",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "동부지소",
+          "fullName": "동부지소팀",
+          "leader": "김지후",
+          "extension": "2763",
+          "officePhone": "031-590-2763",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "서부지소",
+          "fullName": "서부지소팀",
+          "leader": "윤규환",
+          "extension": "2764",
+          "officePhone": "031-590-2764",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "남부지소",
+          "fullName": "남부지소팀",
+          "leader": "용환열",
+          "extension": "2761",
+          "officePhone": "031-590-2761",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "북부지소",
+          "fullName": "북부지소팀",
+          "leader": "이근향",
+          "extension": "2766",
+          "officePhone": "031-590-2766",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "livestock-support",
+      "name": "농축산지원과",
+      "officialTitle": "농축산지원과장",
+      "parentName": "농업기술센터",
+      "parentHead": "문경석",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "농축산지원과장",
+        "name": "송종일",
+        "grade": "농업5급",
+        "extension": "4570",
+        "officePhone": "031-590-4570",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "농업지원",
+          "fullName": "농업지원팀",
+          "leader": "황금율",
+          "extension": "4563",
+          "officePhone": "031-590-4563",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "축산",
+          "fullName": "축산팀",
+          "leader": "박은진",
+          "extension": "2323",
+          "officePhone": "031-590-2323",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "동물복지",
+          "fullName": "동물복지팀",
+          "leader": "김유희",
+          "extension": "4282",
+          "officePhone": "031-590-4282",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "반려동물",
+          "fullName": "반려동물팀",
+          "leader": "전유라",
+          "extension": "4692",
+          "officePhone": "031-590-4692",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "동물방역",
+          "fullName": "동물방역팀",
+          "leader": "한금주",
+          "extension": "4716",
+          "officePhone": "031-590-4716",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "농업기계운영",
+          "fullName": "농업기계운영팀",
+          "leader": "최현종",
+          "extension": "2575",
+          "officePhone": "031-590-2575",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "water-biz-operation",
+      "name": "사업운영과",
+      "officialTitle": "사업운영과장",
+      "parentName": "상하수도관리센터",
+      "parentHead": "박석주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "사업운영과장",
+        "name": "전기수",
+        "grade": "행정5급",
+        "extension": "2440",
+        "officePhone": "031-590-2440",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "업무",
+          "fullName": "업무팀",
+          "leader": "장등탁",
+          "extension": "2441",
+          "officePhone": "031-590-2441",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "기업회계",
+          "fullName": "기업회계팀",
+          "leader": "최정운",
+          "extension": "2443",
+          "officePhone": "031-590-2443",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "요금1",
+          "fullName": "요금1팀",
+          "leader": "권유정",
+          "extension": "2445",
+          "officePhone": "031-590-2445",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "요금2",
+          "fullName": "요금2팀",
+          "leader": "이정호",
+          "extension": "4990",
+          "officePhone": "031-590-4990",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "계량기관리",
+          "fullName": "계량기관리팀",
+          "leader": "임학남",
+          "extension": "2446",
+          "officePhone": "031-590-2446",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지하수관리",
+          "fullName": "지하수관리팀",
+          "leader": "이봉훈",
+          "extension": "8710",
+          "officePhone": "031-590-8710",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "waterworks",
+      "name": "수도과",
+      "officialTitle": "수도과장",
+      "parentName": "상하수도관리센터",
+      "parentHead": "박석주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "수도과장",
+        "name": "김춘",
+        "grade": "시설5급",
+        "extension": "2460",
+        "officePhone": "031-590-2460",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "상수기획",
+          "fullName": "상수기획팀",
+          "leader": "김경태",
+          "extension": "2461",
+          "officePhone": "031-590-2461",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "급수",
+          "fullName": "급수팀",
+          "leader": "한기호",
+          "extension": "2462",
+          "officePhone": "031-590-2462",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "누수방지",
+          "fullName": "누수방지팀",
+          "leader": "장대식",
+          "extension": "2463",
+          "officePhone": "031-590-2463",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정수1",
+          "fullName": "정수1팀",
+          "leader": "차창호",
+          "extension": "4676",
+          "officePhone": "031-590-4676",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정수2",
+          "fullName": "정수2팀",
+          "leader": "전형하",
+          "extension": "2780",
+          "officePhone": "031-590-2780",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "시설관리",
+          "fullName": "시설관리팀",
+          "leader": "안영주",
+          "extension": "1452",
+          "officePhone": "031-590-1452",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "sewage-treatment",
+      "name": "하수처리과",
+      "officialTitle": "하수처리과장",
+      "parentName": "상하수도관리센터",
+      "parentHead": "박석주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "하수처리과장",
+        "name": "김윤곤",
+        "grade": "시설5급",
+        "extension": "2450",
+        "officePhone": "031-590-2450",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "하수기획",
+          "fullName": "하수기획팀",
+          "leader": "윤주연",
+          "extension": "2451",
+          "officePhone": "031-590-2451",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하수운영",
+          "fullName": "하수운영팀",
+          "leader": "고우석",
+          "extension": "2254",
+          "officePhone": "031-590-2254",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하수시설",
+          "fullName": "하수시설팀",
+          "leader": "박흥수",
+          "extension": "2247",
+          "officePhone": "031-590-2247",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "관거정비",
+          "fullName": "관거정비팀",
+          "leader": "박철호",
+          "extension": "2453",
+          "officePhone": "031-590-2453",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "배수설비",
+          "fullName": "배수설비팀",
+          "leader": "홍기우",
+          "extension": "4670",
+          "officePhone": "031-590-4670",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "road-biz-operation",
+      "name": "관리운영과",
+      "officialTitle": "관리운영 과장",
+      "parentName": "도로관리사업소",
+      "parentHead": "이정주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "관리운영 과장",
+        "name": "김정태",
+        "grade": "시설5급",
+        "extension": "7351",
+        "officePhone": "031-590-7351",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "관리기획",
+          "fullName": "관리기획팀",
+          "leader": "박희진",
+          "extension": "7355",
+          "officePhone": "031-590-7355",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로재산관리",
+          "fullName": "도로재산관리팀",
+          "leader": "유홍희",
+          "extension": "2436",
+          "officePhone": "031-590-2436",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로소송",
+          "fullName": "도로소송팀",
+          "leader": "한지혜",
+          "extension": "4366",
+          "officePhone": "031-590-4366",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지하안전관리",
+          "fullName": "지하안전관리팀",
+          "leader": "이윤주",
+          "extension": "8499",
+          "officePhone": "031-590-8499",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "road-maintenance",
+      "name": "도로관리과",
+      "officialTitle": "도로관리 과장",
+      "parentName": "도로관리사업소",
+      "parentHead": "이정주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "도로관리 과장",
+        "name": "윤정원",
+        "grade": "시설5급",
+        "extension": "2480",
+        "officePhone": "031-590-2480",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "도로관리1",
+          "fullName": "도로관리1팀",
+          "leader": "이지숙",
+          "extension": "2423",
+          "officePhone": "031-590-2423",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로관리2",
+          "fullName": "도로관리2팀",
+          "leader": "박수진",
+          "extension": "2433",
+          "officePhone": "031-590-2433",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로관리3",
+          "fullName": "도로관리3팀",
+          "leader": "김창숙",
+          "extension": "4306",
+          "officePhone": "031-590-4306",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "자전거도로",
+          "fullName": "자전거도로팀",
+          "leader": "강진구",
+          "extension": "1391",
+          "officePhone": "031-590-1391",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "road-facility",
+      "name": "도로시설 관리과",
+      "officialTitle": "도로시설 관리과장",
+      "parentName": "도로관리사업소",
+      "parentHead": "이정주",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "도로시설 관리과장",
+        "name": "이연한",
+        "grade": "공업6급",
+        "extension": "5320",
+        "officePhone": "031-590-5320",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "도로구조물",
+          "fullName": "도로구조물팀",
+          "leader": "김세현",
+          "extension": "2424",
+          "officePhone": "031-590-2424",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로조명",
+          "fullName": "도로조명팀",
+          "leader": "김희석",
+          "extension": "2483",
+          "officePhone": "031-590-2483",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도로환경정비",
+          "fullName": "도로환경정비팀",
+          "leader": "김유찬",
+          "extension": "8427",
+          "officePhone": "031-590-8427",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "park-maintenance",
+      "name": "공원관리과",
+      "officialTitle": "공원관리 과장",
+      "parentName": "공원녹지관리사업소",
+      "parentHead": "주영상",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "공원관리 과장",
+        "name": "박선영",
+        "grade": "녹지5급",
+        "extension": "8090",
+        "officePhone": "031-590-8090",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "공원관리1",
+          "fullName": "공원관리1팀",
+          "leader": "조창은",
+          "extension": "2412",
+          "officePhone": "031-590-2412",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공원관리2",
+          "fullName": "공원관리2팀",
+          "leader": "임지향",
+          "extension": "8353",
+          "officePhone": "031-590-8353",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공원관리3",
+          "fullName": "공원관리3팀",
+          "leader": "채수경",
+          "extension": "5351",
+          "officePhone": "031-590-5351",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "수경시설",
+          "fullName": "수경시설팀",
+          "leader": "김상민",
+          "extension": "2866",
+          "officePhone": "031-590-2866",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정원문화",
+          "fullName": "정원문화팀",
+          "leader": "이민애",
+          "extension": "4718",
+          "officePhone": "031-590-4718",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "공원관리TF",
+          "fullName": "공원관리TF팀",
+          "leader": "유상배",
+          "extension": "4750",
+          "officePhone": "031-590-4750",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "river-park-mgmt",
+      "name": "하천공원관리과",
+      "officialTitle": "하천공원관리 과장",
+      "parentName": "공원녹지관리사업소",
+      "parentHead": "주영상",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "하천공원관리 과장",
+        "name": "김영환",
+        "grade": "시설5급",
+        "extension": "2434",
+        "officePhone": "031-590-2434",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "하천공원",
+          "fullName": "하천공원팀",
+          "leader": "박수환",
+          "extension": "2882",
+          "officePhone": "031-590-2882",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하천관리1",
+          "fullName": "하천관리1팀",
+          "leader": "이호종",
+          "extension": "2841",
+          "officePhone": "031-590-2841",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하천관리2",
+          "fullName": "하천관리2팀",
+          "leader": "이윤철",
+          "extension": "6944",
+          "officePhone": "031-590-6944",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "하천단속",
+          "fullName": "하천단속팀",
+          "leader": "김현민",
+          "extension": "2457",
+          "officePhone": "031-590-2457",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "recreation-facility",
+      "name": "휴양시설 관리과",
+      "officialTitle": "휴양시설 관리과장",
+      "parentName": "공원녹지관리사업소",
+      "parentHead": "주영상",
+      "parentRank": "지방과학기술서기관",
+      "head": {
+        "position": "휴양시설 관리과장",
+        "name": "장종기",
+        "grade": "행정5급",
+        "extension": "4398",
+        "officePhone": "031-590-4398",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "산림휴양",
+          "fullName": "산림휴양팀",
+          "leader": "안광용",
+          "extension": "2414",
+          "officePhone": "031-590-2414",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "천마산공원",
+          "fullName": "천마산공원팀",
+          "leader": "백신희",
+          "extension": "8087",
+          "officePhone": "031-590-8087",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "물맑음수목원",
+          "fullName": "물맑음수목원팀",
+          "leader": "남선영",
+          "extension": "4074",
+          "officePhone": "031-590-4074",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dept-6778f1",
+      "name": "정약용도서관",
+      "officialTitle": "정약용도서관 과장",
+      "parentName": "도서관사업소",
+      "parentHead": "김진배",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "정약용도서관 과장",
+        "name": "조성호",
+        "grade": "행정5급",
+        "extension": "2860",
+        "officePhone": "031-590-2860",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "도서관행정",
+          "fullName": "도서관행정팀",
+          "leader": "손채락",
+          "extension": "5361",
+          "officePhone": "031-590-5361",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "독서진흥",
+          "fullName": "독서진흥팀",
+          "leader": "유연경",
+          "extension": "4666",
+          "officePhone": "031-590-4666",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "도서관시설",
+          "fullName": "도서관시설팀",
+          "leader": "양현호",
+          "extension": "8991",
+          "officePhone": "031-590-8991",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "정약용도서관",
+          "fullName": "정약용도서관팀",
+          "leader": "장혜림",
+          "extension": "4781",
+          "officePhone": "031-590-4781",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "library-ops-1",
+      "name": "도서관운영1과",
+      "officialTitle": "도서관운영1과장",
+      "parentName": "도서관사업소",
+      "parentHead": "김진배",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도서관운영1과장",
+        "name": "이은주",
+        "grade": "사서5급",
+        "extension": "8800",
+        "officePhone": "031-590-8800",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "와부도서관",
+          "fullName": "와부도서관팀",
+          "leader": "전지영",
+          "extension": "8911",
+          "officePhone": "031-590-8911",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "화도도서관",
+          "fullName": "화도도서관팀",
+          "leader": "엄재희",
+          "extension": "4581",
+          "officePhone": "031-590-4581",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "진건도서관",
+          "fullName": "진건도서관팀",
+          "leader": "김은향",
+          "extension": "8251",
+          "officePhone": "031-590-8251",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "호평도서관",
+          "fullName": "호평도서관팀",
+          "leader": "곽윤예",
+          "extension": "8331",
+          "officePhone": "031-590-8331",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "평내도서관",
+          "fullName": "평내도서관팀",
+          "leader": "반수연",
+          "extension": "8551",
+          "officePhone": "031-590-8551",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "library-ops-2",
+      "name": "도서관운영2과",
+      "officialTitle": "도서관운영2과장",
+      "parentName": "도서관사업소",
+      "parentHead": "김진배",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도서관운영2과장",
+        "name": "이채원",
+        "grade": "사서5급",
+        "extension": "5327",
+        "officePhone": "031-590-5327",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "별빛도서관",
+          "fullName": "별빛도서관팀",
+          "leader": "고혜자",
+          "extension": "5341",
+          "officePhone": "031-590-5341",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "진접도서관",
+          "fullName": "진접도서관팀",
+          "leader": "이현정",
+          "extension": "5301",
+          "officePhone": "031-590-5301",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "진접푸른숲도서관",
+          "fullName": "진접푸른숲도서관팀",
+          "leader": "진미양",
+          "extension": "5321",
+          "officePhone": "031-590-5321",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "오남도서관",
+          "fullName": "오남도서관팀",
+          "leader": "이상헌",
+          "extension": "8541",
+          "officePhone": "031-590-8541",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "퇴계원도서관",
+          "fullName": "퇴계원도서관팀",
+          "leader": "이경옥",
+          "extension": "3901",
+          "officePhone": "031-590-3901",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "별내도서관",
+          "fullName": "별내도서관팀",
+          "leader": "이준희",
+          "extension": "8801",
+          "officePhone": "031-590-8801",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "wabu-eup-dept-865b23",
+      "name": "와부읍 생활자치",
+      "officialTitle": "와부읍 생활자치 과장",
+      "parentName": "와부읍",
+      "parentHead": "이백영",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "생활자치 과장",
+        "name": "이은경",
+        "grade": "행정5급",
+        "extension": "5401",
+        "officePhone": "031-590-5401",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "황영임",
+          "extension": "2601",
+          "officePhone": "031-590-2601",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "변귀남",
+          "extension": "8207",
+          "officePhone": "031-590-8207",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "조진우",
+          "extension": "2621",
+          "officePhone": "031-590-2621",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "wabu-eup-dept-84b98a",
+      "name": "와부읍 복지지원",
+      "officialTitle": "와부읍 복지지원 과장",
+      "parentName": "와부읍",
+      "parentHead": "이백영",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지지원 과장",
+        "name": "이미정",
+        "grade": "행정5급",
+        "extension": "5402",
+        "officePhone": "031-590-5402",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "복지지원",
+          "fullName": "복지지원팀",
+          "leader": "황선경",
+          "extension": "5409",
+          "officePhone": "031-590-5409",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "조진희",
+          "extension": "5413",
+          "officePhone": "031-590-5413",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "복지상담",
+          "fullName": "복지상담팀",
+          "leader": "박윤옥",
+          "extension": "2911",
+          "officePhone": "031-590-2911",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "wabu-eup-dept-2155d2",
+      "name": "와부읍 도시건축",
+      "officialTitle": "와부읍 도시건축 과장",
+      "parentName": "와부읍",
+      "parentHead": "이백영",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "김영란",
+        "grade": "시설5급",
+        "extension": "5403",
+        "officePhone": "031-590-5403",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "조봉기",
+          "extension": "5419",
+          "officePhone": "031-590-5419",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "김동윤",
+          "extension": "5436",
+          "officePhone": "031-590-5436",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업개발",
+          "fullName": "산업개발팀",
+          "leader": "조동진",
+          "extension": "2921",
+          "officePhone": "031-590-2921",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "강문식",
+          "extension": "4823",
+          "officePhone": "031-590-4823",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "jinjeop-eup-dept-865b23",
+      "name": "진접읍 생활자치",
+      "officialTitle": "진접읍 생활자치 과장",
+      "parentName": "진접읍",
+      "parentHead": "이형숙",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "생활자치 과장",
+        "name": "민희순",
+        "grade": "행정6급",
+        "extension": "8024",
+        "officePhone": "031-590-8024",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "김현정",
+          "extension": "5816",
+          "officePhone": "031-590-5816",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "공인서",
+          "extension": "5818",
+          "officePhone": "031-590-5818",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "정혜진",
+          "extension": "2622",
+          "officePhone": "031-590-2622",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "jinjeop-eup-dept-84b98a",
+      "name": "진접읍 복지지원",
+      "officialTitle": "진접읍 복지지원 과장",
+      "parentName": "진접읍",
+      "parentHead": "이형숙",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지지원 과장",
+        "name": "김지애",
+        "grade": "행정5급",
+        "extension": "5813",
+        "officePhone": "031-590-5813",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "복지지원",
+          "fullName": "복지지원팀",
+          "leader": "박하순",
+          "extension": "8594",
+          "officePhone": "031-590-8594",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "유민서",
+          "extension": "8595",
+          "officePhone": "031-590-8595",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "통합조사",
+          "fullName": "통합조사팀",
+          "leader": "최정윤",
+          "extension": "5802",
+          "officePhone": "031-590-5802",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "복지상담",
+          "fullName": "복지상담팀",
+          "leader": "박옥선",
+          "extension": "2922",
+          "officePhone": "031-590-2922",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "jinjeop-eup-dept-2155d2",
+      "name": "진접읍 도시건축",
+      "officialTitle": "진접읍 도시건축 과장",
+      "parentName": "진접읍",
+      "parentHead": "이형숙",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "최응렬",
+        "grade": "농업5급",
+        "extension": "5821",
+        "officePhone": "031-590-5821",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "노규화",
+          "extension": "8370",
+          "officePhone": "031-590-8370",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "김효정",
+          "extension": "5835",
+          "officePhone": "031-590-5835",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업",
+          "fullName": "산업팀",
+          "leader": "신현일",
+          "extension": "2932",
+          "officePhone": "031-590-2932",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "정은영",
+          "extension": "2912",
+          "officePhone": "031-590-2912",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "교통도로",
+          "fullName": "교통도로팀",
+          "leader": "엄미영",
+          "extension": "5840",
+          "officePhone": "031-590-5840",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "hwado-eup-dept-865b23",
+      "name": "화도읍 생활자치",
+      "officialTitle": "화도읍 생활자치 과장",
+      "parentName": "화도읍",
+      "parentHead": "유형식",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "생활자치 과장",
+        "name": "서은희",
+        "grade": "행정5급",
+        "extension": "8027",
+        "officePhone": "031-590-8027",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "이명숙",
+          "extension": "4054",
+          "officePhone": "031-590-4054",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "김민철",
+          "extension": "4050",
+          "officePhone": "031-590-4050",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "김하진",
+          "extension": "2633",
+          "officePhone": "031-590-2633",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "동부출장소",
+          "fullName": "동부출장소팀",
+          "leader": "박경리",
+          "extension": "8611",
+          "officePhone": "031-590-8611",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "남부출장소",
+          "fullName": "남부출장소팀",
+          "leader": "김은경",
+          "extension": "7390",
+          "officePhone": "031-590-7390",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "hwado-eup-dept-84b98a",
+      "name": "화도읍 복지지원",
+      "officialTitle": "화도읍 복지지원 과장",
+      "parentName": "화도읍",
+      "parentHead": "유형식",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지지원 과장",
+        "name": "김일녀",
+        "grade": "사회복지5급",
+        "extension": "5452",
+        "officePhone": "031-590-5452",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "복지지원",
+          "fullName": "복지지원팀",
+          "leader": "김다경",
+          "extension": "5458",
+          "officePhone": "031-590-5458",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "윤선미",
+          "extension": "5462",
+          "officePhone": "031-590-5462",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "통합조사",
+          "fullName": "통합조사팀",
+          "leader": "최성실",
+          "extension": "2849",
+          "officePhone": "031-590-2849",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "복지상담",
+          "fullName": "복지상담팀",
+          "leader": "김민선",
+          "extension": "2913",
+          "officePhone": "031-590-2913",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "hwado-eup-dept-2155d2",
+      "name": "화도읍 도시건축",
+      "officialTitle": "화도읍 도시건축 과장",
+      "parentName": "화도읍",
+      "parentHead": "유형식",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "윤광호",
+        "grade": "시설5급",
+        "extension": "5454",
+        "officePhone": "031-590-5454",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "유세현",
+          "extension": "5455",
+          "officePhone": "031-590-5455",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "김민정",
+          "extension": "5478",
+          "officePhone": "031-590-5478",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업",
+          "fullName": "산업팀",
+          "leader": "이은표",
+          "extension": "2923",
+          "officePhone": "031-590-2923",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "박풀잎",
+          "extension": "2933",
+          "officePhone": "031-590-2933",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주민지원사업",
+          "fullName": "주민지원사업팀",
+          "leader": "성선영",
+          "extension": "5487",
+          "officePhone": "031-590-5487",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "교통도로",
+          "fullName": "교통도로팀",
+          "leader": "주진표",
+          "extension": "4877",
+          "officePhone": "031-590-4877",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "jingeon-eup-dept-865b23",
+      "name": "진건읍 생활자치",
+      "officialTitle": "진건읍 생활자치 과장",
+      "parentName": "진건읍",
+      "parentHead": "김학철",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "생활자치 과장",
+        "name": "김영미",
+        "grade": "행정5급",
+        "extension": "5850",
+        "officePhone": "031-590-5850",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "이광민",
+          "extension": "2604",
+          "officePhone": "031-590-2604",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "권지연",
+          "extension": "8210",
+          "officePhone": "031-590-8210",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "장혜선",
+          "extension": "2624",
+          "officePhone": "031-590-2624",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "jingeon-eup-dept-84b98a",
+      "name": "진건읍 복지지원",
+      "officialTitle": "진건읍 복지지원 과장",
+      "parentName": "진건읍",
+      "parentHead": "김학철",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지지원 과장",
+        "name": "임정연",
+        "grade": "사회복지5급",
+        "extension": "5870",
+        "officePhone": "031-590-5870",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "복지지원",
+          "fullName": "복지지원팀",
+          "leader": "이규재",
+          "extension": "5860",
+          "officePhone": "031-590-5860",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "양경화",
+          "extension": "5855",
+          "officePhone": "031-590-5855",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "복지상담",
+          "fullName": "복지상담팀",
+          "leader": "권장우",
+          "extension": "2904",
+          "officePhone": "031-590-2904",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "jingeon-eup-dept-2155d2",
+      "name": "진건읍 도시건축",
+      "officialTitle": "진건읍 도시건축 과장",
+      "parentName": "진건읍",
+      "parentHead": "김학철",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "이용섭",
+        "grade": "시설5급",
+        "extension": "3982",
+        "officePhone": "031-590-3982",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "강문영",
+          "extension": "5441",
+          "officePhone": "031-590-5441",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "임창진",
+          "extension": "5308",
+          "officePhone": "031-590-5308",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업개발",
+          "fullName": "산업개발팀",
+          "leader": "배원호",
+          "extension": "2914",
+          "officePhone": "031-590-2914",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "정상영",
+          "extension": "2934",
+          "officePhone": "031-590-2934",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "hopyeong-dong-dept-865b23",
+      "name": "호평동 생활자치",
+      "officialTitle": "호평동 생활자치 과장",
+      "parentName": "호평동",
+      "parentHead": "정순영",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "생활자치 과장",
+        "name": "이성주",
+        "grade": "행정5급",
+        "extension": "6901",
+        "officePhone": "031-590-6901",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "이미진",
+          "extension": "2651",
+          "officePhone": "031-590-2651",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "박준우",
+          "extension": "2851",
+          "officePhone": "031-590-2851",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "최현주",
+          "extension": "6905",
+          "officePhone": "031-590-6905",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "hopyeong-dong-dept-84b98a",
+      "name": "호평동 복지지원",
+      "officialTitle": "호평동 복지지원 과장",
+      "parentName": "호평동",
+      "parentHead": "정순영",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지지원 과장",
+        "name": "손원철",
+        "grade": "행정5급",
+        "extension": "6911",
+        "officePhone": "031-590-6911",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "복지지원",
+          "fullName": "복지지원팀",
+          "leader": "김민정",
+          "extension": "6912",
+          "officePhone": "031-590-6912",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "하종금",
+          "extension": "6920",
+          "officePhone": "031-590-6920",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "복지상담",
+          "fullName": "복지상담팀",
+          "leader": "안선주",
+          "extension": "6918",
+          "officePhone": "031-590-6918",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "hopyeong-dong-dept-2155d2",
+      "name": "호평동 도시건축",
+      "officialTitle": "호평동 도시건축 과장",
+      "parentName": "호평동",
+      "parentHead": "정순영",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "조주연",
+        "grade": "환경5급",
+        "extension": "6921",
+        "officePhone": "031-590-6921",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "정규익",
+          "extension": "6926",
+          "officePhone": "031-590-6926",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "김영효",
+          "extension": "6931",
+          "officePhone": "031-590-6931",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업개발",
+          "fullName": "산업개발팀",
+          "leader": "이우균",
+          "extension": "8063",
+          "officePhone": "031-590-8063",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "이상수",
+          "extension": "6937",
+          "officePhone": "031-590-6937",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dasan1-dong-dept-865b23",
+      "name": "다산1동 생활자치",
+      "officialTitle": "다산1동 생활자치 과장",
+      "parentName": "다산1동",
+      "parentHead": "문길모",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "생활자치 과장",
+        "name": "조은하",
+        "grade": "행정5급",
+        "extension": "1947",
+        "officePhone": "031-590-1947",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "윤은경",
+          "extension": "2682",
+          "officePhone": "031-590-2682",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "이 진",
+          "extension": "1936",
+          "officePhone": "031-590-1936",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "오명석",
+          "extension": "1937",
+          "officePhone": "031-590-1937",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dasan1-dong-dept-84b98a",
+      "name": "다산1동 복지지원",
+      "officialTitle": "다산1동 복지지원 과장",
+      "parentName": "다산1동",
+      "parentHead": "문길모",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지지원 과장",
+        "name": "이재화",
+        "grade": "행정5급",
+        "extension": "1943",
+        "officePhone": "031-590-1943",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "복지지원",
+          "fullName": "복지지원팀",
+          "leader": "정선미",
+          "extension": "8662",
+          "officePhone": "031-590-8662",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "김정은",
+          "extension": "8186",
+          "officePhone": "031-590-8186",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "복지상담",
+          "fullName": "복지상담팀",
+          "leader": "김효진",
+          "extension": "2676",
+          "officePhone": "031-590-2676",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dasan1-dong-dept-2155d2",
+      "name": "다산1동 도시건축",
+      "officialTitle": "다산1동 도시건축 과장",
+      "parentName": "다산1동",
+      "parentHead": "문길모",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "김구",
+        "grade": "시설5급",
+        "extension": "1950",
+        "officePhone": "031-590-1950",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "민경남",
+          "extension": "6954",
+          "officePhone": "031-590-6954",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "홍혜원",
+          "extension": "1951",
+          "officePhone": "031-590-1951",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업개발",
+          "fullName": "산업개발팀",
+          "leader": "백형호",
+          "extension": "1948",
+          "officePhone": "031-590-1948",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "이병규",
+          "extension": "1952",
+          "officePhone": "031-590-1952",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "byeolnae-dong-dept-865b23",
+      "name": "별내동 생활자치",
+      "officialTitle": "별내동 생활자치 과장",
+      "parentName": "별내동",
+      "parentHead": "이유미",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "생활자치 과장",
+        "name": "한윤희",
+        "grade": "행정5급",
+        "extension": "1912",
+        "officePhone": "031-590-1912",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "전경선",
+          "extension": "8184",
+          "officePhone": "031-590-8184",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "전영선",
+          "extension": "8076",
+          "officePhone": "031-590-8076",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "김두만",
+          "extension": "8094",
+          "officePhone": "031-590-8094",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "byeolnae-dong-dept-84b98a",
+      "name": "별내동 복지지원",
+      "officialTitle": "별내동 복지지원 과장",
+      "parentName": "별내동",
+      "parentHead": "이유미",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "복지지원 과장",
+        "name": "강형모",
+        "grade": "행정5급",
+        "extension": "8401",
+        "officePhone": "031-590-8401",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "복지지원",
+          "fullName": "복지지원팀",
+          "leader": "최선영",
+          "extension": "1905",
+          "officePhone": "031-590-1905",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "김은미",
+          "extension": "8708",
+          "officePhone": "031-590-8708",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "통합조사",
+          "fullName": "통합조사팀",
+          "leader": "이호영",
+          "extension": "1486",
+          "officePhone": "031-590-1486",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "복지상담",
+          "fullName": "복지상담팀",
+          "leader": "이세진",
+          "extension": "8185",
+          "officePhone": "031-590-8185",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "byeolnae-dong-dept-2155d2",
+      "name": "별내동 도시건축",
+      "officialTitle": "별내동 도시건축 과장",
+      "parentName": "별내동",
+      "parentHead": "이유미",
+      "parentRank": "지방서기관",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "이동호",
+        "grade": "행정5급",
+        "extension": "8079",
+        "officePhone": "031-590-8079",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "배은주",
+          "extension": "1921",
+          "officePhone": "031-590-1921",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "정광현",
+          "extension": "1923",
+          "officePhone": "031-590-1923",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업개발",
+          "fullName": "산업개발팀",
+          "leader": "조남혁",
+          "extension": "1931",
+          "officePhone": "031-590-1931",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "임양원",
+          "extension": "1927",
+          "officePhone": "031-590-1927",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "geumgok-dong-dept-4e9b6c",
+      "name": "금곡동 행정복지",
+      "officialTitle": "금곡동 행정복지 과장",
+      "parentName": "금곡동",
+      "parentHead": "김의태",
+      "parentRank": "행정5급",
+      "head": {
+        "position": "행정복지 과장",
+        "name": "이은미",
+        "grade": "행정6급",
+        "extension": "1980",
+        "officePhone": "031-590-1980",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "정지영",
+          "extension": "2663",
+          "officePhone": "031-590-2663",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "문화체육",
+          "fullName": "문화체육팀",
+          "leader": "이구호",
+          "extension": "1984",
+          "officePhone": "031-590-1984",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "장지윤",
+          "extension": "2653",
+          "officePhone": "031-590-2653",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "사회복지",
+          "fullName": "사회복지팀",
+          "leader": "박지영",
+          "extension": "1990",
+          "officePhone": "031-590-1990",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "박종희",
+          "extension": "1981",
+          "officePhone": "031-590-1981",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "geumgok-dong-dept-2155d2",
+      "name": "금곡동 도시건축",
+      "officialTitle": "금곡동 도시건축 과장",
+      "parentName": "금곡동",
+      "parentHead": "김의태",
+      "parentRank": "행정5급",
+      "head": {
+        "position": "도시건축 과장",
+        "name": "이희일",
+        "grade": "환경6급",
+        "extension": "1970",
+        "officePhone": "031-590-1970",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "이혜경",
+          "extension": "4013",
+          "officePhone": "031-590-4013",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "건축",
+          "fullName": "건축팀",
+          "leader": "정민숙",
+          "extension": "8870",
+          "officePhone": "031-590-8870",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업개발",
+          "fullName": "산업개발팀",
+          "leader": "최부전",
+          "extension": "1972",
+          "officePhone": "031-590-1972",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경",
+          "fullName": "환경팀",
+          "leader": "이주상",
+          "extension": "1971",
+          "officePhone": "031-590-1971",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "onam-eup",
+      "name": "오남읍",
+      "officialTitle": "오남읍장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "오남읍장",
+        "name": "김병기",
+        "grade": "행정5급",
+        "extension": "8005",
+        "officePhone": "031-590-8005",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "부읍장",
+          "fullName": "부읍장팀",
+          "leader": "장도영",
+          "extension": "8033",
+          "officePhone": "031-590-8033",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "우혜경",
+          "extension": "2884",
+          "officePhone": "031-590-2884",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "성진원",
+          "extension": "2935",
+          "officePhone": "031-590-2935",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "이정민",
+          "extension": "2625",
+          "officePhone": "031-590-2625",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "사회복지",
+          "fullName": "사회복지팀",
+          "leader": "김현정",
+          "extension": "2905",
+          "officePhone": "031-590-2905",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "찾아가는보건복지",
+          "fullName": "찾아가는보건복지팀",
+          "leader": "허희경",
+          "extension": "8946",
+          "officePhone": "031-590-8946",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업",
+          "fullName": "산업팀",
+          "leader": "이금숙",
+          "extension": "2915",
+          "officePhone": "031-590-2915",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "환경청소",
+          "fullName": "환경청소팀",
+          "leader": "김연자",
+          "extension": "2925",
+          "officePhone": "031-590-2925",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "toegyewon-eup",
+      "name": "퇴계원읍",
+      "officialTitle": "퇴계원읍장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "퇴계원읍장",
+        "name": "최숙",
+        "grade": "행정5급",
+        "extension": "8007",
+        "officePhone": "031-590-8007",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "부읍장",
+          "fullName": "부읍장팀",
+          "leader": "권필순",
+          "extension": "8057",
+          "officePhone": "031-590-8057",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "자치지원",
+          "fullName": "자치지원팀",
+          "leader": "이유진",
+          "extension": "1433",
+          "officePhone": "031-590-1433",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "오경준",
+          "extension": "2927",
+          "officePhone": "031-590-2927",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "최수미",
+          "extension": "4935",
+          "officePhone": "031-590-4935",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "맞춤형복지",
+          "fullName": "맞춤형복지팀",
+          "leader": "김진하",
+          "extension": "2907",
+          "officePhone": "031-590-2907",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업환경",
+          "fullName": "산업환경팀",
+          "leader": "음현정",
+          "extension": "2937",
+          "officePhone": "031-590-2937",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "byeolnae-myeon",
+      "name": "별내면",
+      "officialTitle": "별내면장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "별내면장",
+        "name": "임석경",
+        "grade": "행정5급",
+        "extension": "8006",
+        "officePhone": "031-590-8006",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "부면장",
+          "fullName": "부면장팀",
+          "leader": "김세영",
+          "extension": "4916",
+          "officePhone": "031-590-4916",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "정경진",
+          "extension": "2936",
+          "officePhone": "031-590-2936",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "배주영",
+          "extension": "4921",
+          "officePhone": "031-590-4921",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "맞춤형복지",
+          "fullName": "맞춤형복지팀",
+          "leader": "김지영",
+          "extension": "2626",
+          "officePhone": "031-590-2626",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업환경",
+          "fullName": "산업환경팀",
+          "leader": "김수정",
+          "extension": "8585",
+          "officePhone": "031-590-8585",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "sudong-myeon",
+      "name": "수동면",
+      "officialTitle": "수동면장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "수동면장",
+        "name": "이진춘",
+        "grade": "행정5급",
+        "extension": "8008",
+        "officePhone": "031-590-8008",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "부면장",
+          "fullName": "부면장팀",
+          "leader": "김수일",
+          "extension": "2608",
+          "officePhone": "031-590-2608",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "김영우",
+          "extension": "2938",
+          "officePhone": "031-590-2938",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "민원",
+          "fullName": "민원팀",
+          "leader": "박정문",
+          "extension": "2628",
+          "officePhone": "031-590-2628",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "사회복지",
+          "fullName": "사회복지팀",
+          "leader": "이윤경",
+          "extension": "2908",
+          "officePhone": "031-590-2908",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업환경",
+          "fullName": "산업환경팀",
+          "leader": "이효임",
+          "extension": "2928",
+          "officePhone": "031-590-2928",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "joan-myeon",
+      "name": "조안면",
+      "officialTitle": "조안면장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "조안면장",
+        "name": "탁은희",
+        "grade": "행정6급",
+        "extension": "8009",
+        "officePhone": "031-590-8009",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "부면장",
+          "fullName": "부면장팀",
+          "leader": "홍정의",
+          "extension": "2609",
+          "officePhone": "031-590-2609",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "지역안전",
+          "fullName": "지역안전팀",
+          "leader": "이주희",
+          "extension": "2939",
+          "officePhone": "031-590-2939",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "주민복지",
+          "fullName": "주민복지팀",
+          "leader": "곽도연",
+          "extension": "2629",
+          "officePhone": "031-590-2629",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "산업환경",
+          "fullName": "산업환경팀",
+          "leader": "백애현",
+          "extension": "2909",
+          "officePhone": "031-590-2909",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "수질관리지원",
+          "fullName": "수질관리지원팀",
+          "leader": "김성수",
+          "extension": "2929",
+          "officePhone": "031-590-2929",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "pyeongnae-dong",
+      "name": "평내동",
+      "officialTitle": "평내동장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "평내동장",
+        "name": "정복선",
+        "grade": "행정5급",
+        "extension": "8012",
+        "officePhone": "031-590-8012",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "행정민원",
+          "fullName": "행정민원팀",
+          "leader": "도수현",
+          "extension": "2652",
+          "officePhone": "031-590-2652",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "맞춤형복지",
+          "fullName": "맞춤형복지팀",
+          "leader": "한상혁",
+          "extension": "2973",
+          "officePhone": "031-590-2973",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "yangjeong-dong",
+      "name": "양정동",
+      "officialTitle": "양정동장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "양정동장",
+        "name": "홍은희",
+        "grade": "행정5급",
+        "extension": "8014",
+        "officePhone": "031-590-8014",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "총괄",
+          "fullName": "총괄팀",
+          "leader": "임현정",
+          "extension": "2654",
+          "officePhone": "031-590-2654",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    },
+    {
+      "id": "dasan2-dong",
+      "name": "다산2동",
+      "officialTitle": "다산2동장",
+      "parentName": "남양주시",
+      "parentHead": "",
+      "parentRank": "",
+      "head": {
+        "position": "다산2동장",
+        "name": "안상영",
+        "grade": "행정5급",
+        "extension": "8015",
+        "officePhone": "031-590-8015",
+        "mobilePhone": "미등록 (개인정보 보호)"
+      },
+      "teams": [
+        {
+          "name": "행정민원",
+          "fullName": "행정민원팀",
+          "leader": "고재섭",
+          "extension": "2655",
+          "officePhone": "031-590-2655",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        },
+        {
+          "name": "맞춤형복지",
+          "fullName": "맞춤형복지팀",
+          "leader": "이선민",
+          "extension": "4293",
+          "officePhone": "031-590-4293",
+          "mobilePhone": "미등록 (개인정보 보호)"
+        }
+      ]
+    }
+  ]
+}

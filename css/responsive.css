@@ -1,0 +1,168 @@
+/* ============================================================
+   남양주시 스마트 조직도 - Responsive Stylesheet (responsive.css)
+   Mobile First Breakpoint & Touch UX 최적화
+============================================================ */
+
+/* ------------------------------------------------------------
+   1. Tablet Breakpoint (max-width: 1199px)
+------------------------------------------------------------ */
+@media (max-width: 1199px) {
+  .zones-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+
+  .departments-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+}
+
+/* ------------------------------------------------------------
+   2. Mobile Breakpoint (max-width: 767px)
+------------------------------------------------------------ */
+@media (max-width: 767px) {
+  :root {
+    --header-height: 64px;
+  }
+
+  /* Header adjustments */
+  .brand-title {
+    font-size: 1.1rem;
+  }
+
+  .brand-subtitle {
+    display: none;
+  }
+
+  .theme-toggle-btn .theme-text {
+    display: none;
+  }
+
+  .theme-toggle-btn {
+    padding: 8px 10px;
+  }
+
+  .admin-upload-btn span {
+    display: none;
+  }
+
+  /* Hero adjustments */
+  .hero-section {
+    padding: 32px 0 28px;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .search-input {
+    height: 50px;
+    font-size: 0.95rem;
+    padding: 0 46px 0 46px;
+  }
+
+  .search-icon {
+    left: 16px;
+    font-size: 1.1rem;
+  }
+
+  /* Tab Bar Mobile Optimization */
+  .nav-tabs {
+    padding: 8px 0;
+  }
+
+  .tab-btn {
+    padding: 8px 14px;
+    font-size: 0.88rem;
+    min-height: 44px; /* WCAG touch target */
+  }
+
+  /* Leadership Bar on Mobile */
+  .leadership-bar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+  }
+
+  .leader-card-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .leader-badge-card {
+    justify-content: flex-start;
+  }
+
+  /* Category Bar Mobile Accordion */
+  .category-title-bar {
+    cursor: pointer;
+    user-select: none;
+    padding: 12px 16px;
+  }
+
+  .category-title-bar::after {
+    content: "▼";
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    transition: transform 0.2s ease;
+  }
+
+  .category-block.collapsed .category-title-bar::after {
+    transform: rotate(-90deg);
+  }
+
+  .category-block.collapsed .departments-grid {
+    display: none;
+  }
+
+  /* Department Cards on Mobile */
+  .departments-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .dept-card {
+    padding: 16px;
+  }
+
+  .zones-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Modal Mobile (Bottom-sheet style) */
+  .modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .modal-container {
+    max-width: 100%;
+    max-height: 85vh;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    border-bottom: none;
+  }
+
+  .modal-header {
+    padding: 16px 20px;
+  }
+
+  .modal-body {
+    padding: 18px 20px;
+  }
+
+  .teams-list-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .toast-container {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+  }
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="남양주시 스마트 조직도" />
+  <meta name="description" content="남양주시청의 조직도 및 부서장·팀장 연락처를 쉽고 빠르게 찾을 수 있는 반응형 스마트 조직도 웹앱" />
+  <title>남양주시 스마트 조직도</title>
+
+  <!-- Preconnect and CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+<body>
+  <!-- 1. Header -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <div class="brand-area">
+        <span class="brand-badge">남양주</span>
+        <a href="#/" class="brand-title">
+          <span>스마트 조직도</span>
+          <span class="brand-subtitle">Smart Org & Contact</span>
+        </a>
+      </div>
+
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="다크모드로 전환">
+          <span class="theme-icon">🌙</span>
+          <span class="theme-text">다크모드</span>
+        </button>
+
+        <!-- Admin PDF Update Modal Trigger -->
+        <button type="button" class="admin-upload-btn" id="admin-upload-btn" title="PDF 직위표 자동 업데이트">
+          <span>📄</span>
+          <span>직위표 갱신</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. Hero Section & Sticky Search -->
+  <section class="hero-section" id="hero-section">
+    <div class="container">
+      <h1 class="hero-title">남양주시 스마트 조직도</h1>
+      <p class="hero-subtitle">부서, 담당 업무, 부서장·팀장 연락처를 빠르게 찾아보세요.</p>
+
+      <!-- Instant Search Input -->
+      <div class="search-container">
+        <div class="search-input-wrapper">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="부서명, 팀명, 담당자 이름, 내선번호, 초성(예: ㅎㅁ) 검색"
+            autocomplete="off"
+            aria-label="조직도 검색"
+          />
+          <button type="button" class="search-clear-btn" id="search-clear-btn" aria-label="검색어 지우기">✕</button>
+        </div>
+
+        <!-- Search Tag Hints -->
+        <div class="search-tag-hints">
+          <span>추천 검색:</span>
+          <button type="button" class="hint-pill" data-query="자동차관리과">자동차관리과</button>
+          <button type="button" class="hint-pill" data-query="스마트도시과">스마트도시과</button>
+          <button type="button" class="hint-pill" data-query="화물팀">화물팀</button>
+          <button type="button" class="hint-pill" data-query="최현덕">최현덕 시장</button>
+          <button type="button" class="hint-pill" data-query="ㅎㅁ">초성: ㅎㅁ</button>
+          <button type="button" class="hint-pill" data-query="다산">다산동</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. View Tabs Navigation -->
+  <nav class="nav-tabs-wrapper" id="nav-tabs-wrapper" aria-label="조직도 카테고리 탭">
+    <div class="container">
+      <div class="nav-tabs" role="tablist">
+        <button type="button" class="tab-btn active" data-tab="headquarters" role="tab" aria-selected="true">
+          <span>🏛️ 본청과 제2청사</span>
+          <span class="tab-badge" id="badge-hq">50과</span>
+        </button>
+        <button type="button" class="tab-btn" data-tab="directAgencies" role="tab" aria-selected="false">
+          <span>🏥 직속기관 및 사업소</span>
+          <span class="tab-badge" id="badge-direct">8개소</span>
+        </button>
+        <button type="button" class="tab-btn" data-tab="welfareCenters" role="tab" aria-selected="false">
+          <span>🏡 행정복지센터 (8대 권역)</span>
+          <span class="tab-badge">16개 읍면동</span>
+        </button>
+        <button type="button" class="tab-btn" data-tab="council" role="tab" aria-selected="false">
+          <span>⚖️ 시의회 사무국</span>
+          <span class="tab-badge">6개 팀</span>
+        </button>
+        <button type="button" class="tab-btn" data-tab="favorites" role="tab" aria-selected="false">
+          <span>⭐ 내 즐겨찾기</span>
+          <span class="tab-badge" id="badge-fav">0</span>
+        </button>
+        <button type="button" class="tab-btn" data-tab="recent" role="tab" aria-selected="false">
+          <span>🕒 최근 본 부서</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 4. Main Content Area -->
+  <main class="main-content" id="main-content">
+    <div class="container">
+
+      <!-- 4-1. Search Results View (동적 활성화) -->
+      <section id="search-results-view" class="search-results-section" aria-live="polite">
+        <div class="search-stats-bar">
+          <span class="search-count-text">검색 결과: <strong id="search-count">0</strong>건</span>
+          <button type="button" class="hint-pill" id="search-exit-btn">전체 조직도로 돌아가기 ✕</button>
+        </div>
+        <div class="departments-grid" id="search-results-grid"></div>
+      </section>
+
+      <!-- 4-2. Headquarters View (본청과 제2청사) -->
+      <section id="tab-headquarters" class="tab-content-panel active">
+        <!-- 1) 남양주시장 및 보좌진 바 -->
+        <div class="leadership-bar mayor-bar" id="leadership-summary-bar">
+          <div class="leader-card-group">
+            <div class="leader-badge-card" style="cursor: pointer;" onclick="window.app.openStaff('최현덕')" title="시장 상세정보 보기">
+              <div class="leader-avatar">시</div>
+              <div>
+                <div class="leader-role">남양주시장</div>
+                <div class="leader-name" id="mayor-name">최현덕</div>
+              </div>
+            </div>
+          </div>
+          <div class="advisors-pill-group" id="advisors-group">
+            <button type="button" class="advisor-pill" onclick="window.app.openStaff('경성석')">정책보좌관: 경성석 (2044)</button>
+            <button type="button" class="advisor-pill" onclick="window.app.openStaff('김종동')">정책보좌관: 김종동 (2006)</button>
+            <button type="button" class="advisor-pill" onclick="window.app.openStaff('이은화')">비서실장: 이은화 (2001)</button>
+            <button type="button" class="advisor-pill" onclick="window.app.openStaff('김동진')">민원팀장: 김동진 (2002)</button>
+            <button type="button" class="advisor-pill" onclick="window.app.openStaff('나승권')">수행팀장: 나승권 (2003)</button>
+          </div>
+        </div>
+
+        <!-- 2) 부시장 및 비서 바 -->
+        <div class="leadership-bar vicemayor-bar" id="vicemayor-summary-bar">
+          <div class="leader-card-group">
+            <div class="leader-badge-card" style="cursor: pointer;" onclick="window.app.openStaff('김상수')" title="부시장 상세정보 보기">
+              <div class="leader-avatar" style="background: linear-gradient(135deg, var(--navy), #3b82f6);">부</div>
+              <div>
+                <div class="leader-role">부시장</div>
+                <div class="leader-name" id="vicemayor-name">김상수</div>
+              </div>
+            </div>
+          </div>
+          <div class="advisors-pill-group" id="vicemayor-staff-group">
+            <button type="button" class="advisor-pill" onclick="window.app.openStaff('최지호')">비서 : 최지호 (2010)</button>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">본청 및 제2청사 조직</h2>
+            <p class="section-desc">기획조정실, 7개 국, 미래도시추진단 및 직속 담당관·감사관</p>
+          </div>
+        </div>
+
+        <!-- Headquarters Categories Container -->
+        <div id="hq-categories-container"></div>
+      </section>
+
+      <!-- 4-3. Direct Agencies & Saupso View (직속기관 및 사업소) -->
+      <section id="tab-directAgencies" class="tab-content-panel" style="display: none;">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">직속기관 및 사업소</h2>
+            <p class="section-desc">남양주·풍양·동부 3개 보건소, 농업기술센터 및 상하수도·도로·공원녹지·도서관 사업소</p>
+          </div>
+        </div>
+        <div id="direct-categories-container"></div>
+      </section>
+
+      <!-- 4-4. Welfare Centers View (행정복지센터 8대 권역) -->
+      <section id="tab-welfareCenters" class="tab-content-panel" style="display: none;">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">8대 권역 행정복지센터</h2>
+            <p class="section-desc">전국 최초 책임읍면동제 적용: 거점 읍·동에 생활자치과, 복지지원과, 도시건축과 배치</p>
+          </div>
+        </div>
+        <div class="zones-grid" id="zones-container"></div>
+      </section>
+
+      <!-- 4-5. Council View (남양주시의회) -->
+      <section id="tab-council" class="tab-content-panel" style="display: none;">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">남양주시의회 사무국</h2>
+            <p class="section-desc">시민의 대의기관 의정 지원 및 4대 상임위원회 전문위원 체계</p>
+          </div>
+        </div>
+        <div id="council-container"></div>
+      </section>
+
+      <!-- 4-6. Favorites View -->
+      <section id="tab-favorites" class="tab-content-panel" style="display: none;">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">⭐ 내 즐겨찾는 부서</h2>
+            <p class="section-desc">자주 찾는 부서를 북마크하여 언제든지 한 번의 클릭으로 연락처를 확인하세요.</p>
+          </div>
+        </div>
+        <div class="departments-grid" id="favorites-grid"></div>
+      </section>
+
+      <!-- 4-7. Recent View -->
+      <section id="tab-recent" class="tab-content-panel" style="display: none;">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">🕒 최근 조회한 부서</h2>
+            <p class="section-desc">최근에 조회했던 부서 목록입니다. (최대 10개)</p>
+          </div>
+        </div>
+        <div class="departments-grid" id="recent-grid"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- 5. Department Detail Modal -->
+  <div class="modal-overlay" id="dept-modal" role="dialog" aria-modal="true" aria-labelledby="modal-dept-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <div class="modal-breadcrumb" id="modal-dept-breadcrumb">본청 > 교통국</div>
+          <h2 class="modal-title" id="modal-dept-title">자동차관리과</h2>
+        </div>
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="창 닫기">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- 부서장 프로필 박스 -->
+        <div class="dept-head-box">
+          <div class="dept-head-profile">
+            <div class="dept-head-avatar">장</div>
+            <div>
+              <div class="dept-head-name" id="modal-head-name">홍길동</div>
+              <div class="dept-head-pos" id="modal-head-pos">자동차관리과장 (행정5급)</div>
+            </div>
+          </div>
+          <div class="dept-head-actions" style="display: flex; flex-direction: column; gap: 6px; align-items: flex-end;">
+            <a href="#" class="call-btn-action" id="modal-head-call-btn" style="padding: 7px 14px; font-size: 0.86rem;">
+              <span>📞</span>
+              <span id="modal-head-phone-text">전화걸기</span>
+            </a>
+            <a href="#" class="call-btn-action mobile-btn" id="modal-head-mobile-btn" style="padding: 7px 14px; font-size: 0.86rem; background: linear-gradient(135deg, #2563eb, #1d4ed8); display: none;">
+              <span>📱</span>
+              <span id="modal-head-mobile-btn-text">010-0000-0000</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 부서 공지사항/메모 (있을 경우) -->
+        <div id="modal-dept-notice" style="display: none; background: var(--accent-orange-light); border-left: 4px solid var(--accent-orange); padding: 10px 14px; border-radius: var(--radius-sm); font-size: 0.88rem; margin-bottom: 16px;"></div>
+
+        <!-- 소속 팀 및 팀장 리스트 -->
+        <h3 class="modal-section-title">소속 팀 및 팀장 연락처</h3>
+        <div class="teams-list-grid" id="modal-teams-grid"></div>
+
+        <!-- 주요 업무 요약 -->
+        <h3 class="modal-section-title">주요 담당 업무</h3>
+        <ul class="tasks-bullet-list" id="modal-tasks-list"></ul>
+      </div>
+
+      <div class="modal-footer">
+        <span>데이터 기준일: 2026.09.11 (남양주시 직위표 원본)</span>
+        <button type="button" class="hint-pill" id="modal-fav-toggle-btn">⭐ 즐겨찾기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5-2. Staff Detail Modal (보좌진, 비서실, 팀장 인물 상세 모달) -->
+  <div class="modal-overlay" id="staff-modal" role="dialog" aria-modal="true" aria-labelledby="modal-staff-title">
+    <div class="modal-container" style="max-width: 520px;">
+      <div class="modal-header">
+        <div>
+          <div class="modal-breadcrumb" id="modal-staff-breadcrumb">남양주시청 > 열린시장실</div>
+          <h2 class="modal-title" id="modal-staff-title">정책보좌관 경성석</h2>
+        </div>
+        <button type="button" class="modal-close-btn" id="modal-staff-close-btn" aria-label="창 닫기">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="dept-head-box">
+          <div class="dept-head-profile">
+            <div class="dept-head-avatar" id="modal-staff-avatar">보</div>
+            <div>
+              <div class="dept-head-name" id="modal-staff-name">경성석</div>
+              <div class="dept-head-pos" id="modal-staff-pos">정책보좌관</div>
+            </div>
+          </div>
+          <div class="dept-head-actions" style="display: flex; flex-direction: column; gap: 6px; align-items: flex-end;">
+            <a href="#" class="call-btn-action" id="modal-staff-call-btn" style="padding: 7px 14px; font-size: 0.86rem;">
+              <span>📞</span>
+              <span id="modal-staff-phone-text">전화걸기</span>
+            </a>
+            <a href="#" class="call-btn-action mobile-btn" id="modal-staff-mobile-btn" style="padding: 7px 14px; font-size: 0.86rem; background: linear-gradient(135deg, #2563eb, #1d4ed8);">
+              <span>📱</span>
+              <span id="modal-staff-mobile-btn-text">010-0000-0000</span>
+            </a>
+          </div>
+        </div>
+
+        <h3 class="modal-section-title">주요 담당 및 연락처</h3>
+        <div style="background: var(--bg-secondary); border-radius: var(--radius-md); padding: 16px 20px; font-size: 0.92rem; line-height: 1.7;">
+          <div style="margin-bottom: 8px;"><strong>행정 전화:</strong> <a href="#" id="modal-staff-direct-phone" class="phone-link">031-590-2044</a></div>
+          <div id="modal-staff-mobile-row" style="margin-bottom: 8px;"><strong>휴대전화:</strong> <a href="#" id="modal-staff-mobile-phone" class="phone-link" style="color: #2563eb; font-weight: 700;">010-0000-0000</a></div>
+          <div id="modal-staff-email-row" style="margin-bottom: 8px; display: none;"><strong>전자우편:</strong> <a href="#" id="modal-staff-email" class="phone-link" style="color: var(--primary);">email@korea.kr</a></div>
+          <div style="margin-bottom: 8px;"><strong>소속 부서:</strong> <span id="modal-staff-dept">열린시장실</span></div>
+          <div><strong>담당 업무:</strong> <span id="modal-staff-role">시정 주요 현안 및 정책 방향 보좌</span></div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <span>데이터 기준일: 2026.09.11 (남양주시 직위표)</span>
+        <button type="button" class="hint-pill" id="modal-staff-dismiss-btn">닫기</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Admin PDF Update Modal -->
+  <div class="modal-overlay" id="admin-modal" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <h2 class="modal-title">📄 직위표 PDF 데이터 갱신</h2>
+          <div class="modal-breadcrumb">인사이동 시 새로운 직위표 PDF를 분석하여 데이터를 자동 갱신합니다.</div>
+        </div>
+        <button type="button" class="modal-close-btn" id="admin-close-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <div style="border: 2px dashed var(--primary); padding: 32px 20px; text-align: center; border-radius: var(--radius-md); background: var(--primary-light);">
+          <p style="font-size: 1.1rem; font-weight: 700; margin-bottom: 8px;">새로운 직위표 PDF 파일을 선택하거나 드래그하세요</p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">예: 직위표(2026-10-01).pdf</p>
+          <input type="file" id="pdf-file-input" accept=".pdf" style="display: none;" />
+          <button type="button" class="call-btn-action" style="background: var(--primary);" onclick="document.getElementById('pdf-file-input').click()">PDF 파일 선택</button>
+        </div>
+        <div id="pdf-parse-status" style="margin-top: 16px; font-size: 0.9rem; color: var(--text-secondary);"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p><strong>남양주시 스마트 조직도 및 직원 연락처</strong></p>
+        <p style="margin-top: 4px;">경기도 남양주시 경춘로 1037 (금곡동) | 대표전화 031-590-2114</p>
+      </div>
+      <div>
+        <p>데이터 출처: 2026.09.11. 기준 남양주시 직위표 및 공식 누리집</p>
+        <p style="margin-top: 4px; font-size: 0.8rem; color: var(--text-muted);">개인정보 보호를 위해 비공개 개인 휴대전화 번호는 제공되지 않습니다.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
