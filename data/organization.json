@@ -339,13 +339,15 @@
           "center": {
             "name": "와부읍",
             "headName": "이백영",
-            "headRank": "지방서기관",
-            "headPhone": "8001",
+            "headRank": "지방서기관(읍장)",
+            "headPhone": "031-590-8001",
             "divisionIds": [
               "wabu-eup-dept-865b23",
               "wabu-eup-dept-84b98a",
               "wabu-eup-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-8746-6683",
+            "email": "lee1k@korea.kr"
           },
           "subArea": {
             "name": "조안면",
@@ -355,6 +357,15 @@
             "divisionIds": [
               "joan-myeon"
             ]
+          },
+          "centerLeader": {
+            "name": "이백영",
+            "title": "센터장",
+            "rank": "지방서기관(읍장)",
+            "officePhone": "031-590-8001",
+            "mobilePhone": "010-8746-6683",
+            "email": "lee1k@korea.kr",
+            "task": "와부읍 업무 총괄 및 와부조안 행정복지센터 총괄"
           }
         },
         {
@@ -363,13 +374,15 @@
           "center": {
             "name": "진접읍",
             "headName": "이형숙",
-            "headRank": "지방서기관",
-            "headPhone": "8002",
+            "headRank": "지방서기관(읍장)",
+            "headPhone": "031-590-8002",
             "divisionIds": [
               "jinjeop-eup-dept-865b23",
               "jinjeop-eup-dept-84b98a",
               "jinjeop-eup-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-4631-9973",
+            "email": "lhs68615@korea.kr"
           },
           "subArea": {
             "name": "오남읍",
@@ -379,6 +392,15 @@
             "divisionIds": [
               "onam-eup"
             ]
+          },
+          "centerLeader": {
+            "name": "이형숙",
+            "title": "센터장",
+            "rank": "지방서기관(읍장)",
+            "officePhone": "031-590-8002",
+            "mobilePhone": "010-4631-9973",
+            "email": "lhs68615@korea.kr",
+            "task": "진접읍 업무 총괄 및 진접오남 행정복지센터 총괄"
           }
         },
         {
@@ -387,13 +409,15 @@
           "center": {
             "name": "화도읍",
             "headName": "유형식",
-            "headRank": "지방서기관",
-            "headPhone": "8003",
+            "headRank": "지방서기관(읍장)",
+            "headPhone": "031-590-8003",
             "divisionIds": [
               "hwado-eup-dept-865b23",
               "hwado-eup-dept-84b98a",
               "hwado-eup-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-8880-0961",
+            "email": "andyou1@korea.kr"
           },
           "subArea": {
             "name": "수동면",
@@ -403,6 +427,15 @@
             "divisionIds": [
               "sudong-myeon"
             ]
+          },
+          "centerLeader": {
+            "name": "유형식",
+            "title": "센터장",
+            "rank": "지방서기관(읍장)",
+            "officePhone": "031-590-8003",
+            "mobilePhone": "010-8880-0961",
+            "email": "andyou1@korea.kr",
+            "task": "화도읍 업무 총괄 및 화도수동 행정복지센터 총괄"
           }
         },
         {
@@ -411,13 +444,15 @@
           "center": {
             "name": "진건읍",
             "headName": "김학철",
-            "headRank": "지방서기관",
-            "headPhone": "8004",
+            "headRank": "지방서기관(읍장)",
+            "headPhone": "031-590-8004",
             "divisionIds": [
               "jingeon-eup-dept-865b23",
               "jingeon-eup-dept-84b98a",
               "jingeon-eup-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-8334-3831",
+            "email": "rlagkrcjf@korea.kr"
           },
           "subArea": {
             "name": "퇴계원읍",
@@ -427,6 +462,15 @@
             "divisionIds": [
               "toegyewon-eup"
             ]
+          },
+          "centerLeader": {
+            "name": "김학철",
+            "title": "센터장",
+            "rank": "지방서기관(읍장)",
+            "officePhone": "031-590-8004",
+            "mobilePhone": "010-8334-3831",
+            "email": "rlagkrcjf@korea.kr",
+            "task": "진건읍 업무 총괄 및 진건퇴계원 행정복지센터 총괄"
           }
         },
         {
@@ -435,13 +479,15 @@
           "center": {
             "name": "호평동",
             "headName": "정순영",
-            "headRank": "지방서기관",
-            "headPhone": "8011",
+            "headRank": "지방서기관(동장)",
+            "headPhone": "031-590-8011",
             "divisionIds": [
               "hopyeong-dong-dept-865b23",
               "hopyeong-dong-dept-84b98a",
               "hopyeong-dong-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-9249-9374",
+            "email": "jsy9374@korea.kr"
           },
           "subArea": {
             "name": "평내동",
@@ -451,6 +497,15 @@
             "divisionIds": [
               "pyeongnae-dong"
             ]
+          },
+          "centerLeader": {
+            "name": "정순영",
+            "title": "센터장",
+            "rank": "지방서기관(동장)",
+            "officePhone": "031-590-8011",
+            "mobilePhone": "010-9249-9374",
+            "email": "jsy9374@korea.kr",
+            "task": "호평동 업무 총괄 및 호평평내 행정복지센터 총괄"
           }
         },
         {
@@ -459,13 +514,15 @@
           "center": {
             "name": "다산1동",
             "headName": "문길모",
-            "headRank": "지방서기관",
-            "headPhone": "8016",
+            "headRank": "지방서기관(동장)",
+            "headPhone": "031-590-8016",
             "divisionIds": [
               "dasan1-dong-dept-865b23",
               "dasan1-dong-dept-84b98a",
               "dasan1-dong-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-5267-1876",
+            "email": "moongilmo@korea.kr"
           },
           "subArea": {
             "name": "다산2동",
@@ -475,6 +532,15 @@
             "divisionIds": [
               "dasan2-dong"
             ]
+          },
+          "centerLeader": {
+            "name": "문길모",
+            "title": "센터장",
+            "rank": "지방서기관(동장)",
+            "officePhone": "031-590-8016",
+            "mobilePhone": "010-5267-1876",
+            "email": "moongilmo@korea.kr",
+            "task": "다산1동 업무총괄 및 다산 행정복지센터 총괄"
           }
         },
         {
@@ -483,13 +549,15 @@
           "center": {
             "name": "별내동",
             "headName": "이유미",
-            "headRank": "지방서기관",
-            "headPhone": "8490",
+            "headRank": "지방서기관(동장)",
+            "headPhone": "031-590-8490",
             "divisionIds": [
               "byeolnae-dong-dept-865b23",
               "byeolnae-dong-dept-84b98a",
               "byeolnae-dong-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-9273-2723",
+            "email": "dbal8815@korea.kr"
           },
           "subArea": {
             "name": "별내면",
@@ -499,6 +567,15 @@
             "divisionIds": [
               "byeolnae-myeon"
             ]
+          },
+          "centerLeader": {
+            "name": "이유미",
+            "title": "센터장",
+            "rank": "지방서기관(동장)",
+            "officePhone": "031-590-8490",
+            "mobilePhone": "010-9273-2723",
+            "email": "dbal8815@korea.kr",
+            "task": "별내동 업무 총괄 및 별내 행정복지센터 총괄"
           }
         },
         {
@@ -507,12 +584,14 @@
           "center": {
             "name": "금곡동",
             "headName": "김의태",
-            "headRank": "행정5급",
-            "headPhone": "8013",
+            "headRank": "지방행정사무관(동장)",
+            "headPhone": "031-590-8013",
             "divisionIds": [
               "geumgok-dong-dept-4e9b6c",
               "geumgok-dong-dept-2155d2"
-            ]
+            ],
+            "mobilePhone": "010-4162-5882",
+            "email": "gimeetae@korea.kr"
           },
           "subArea": {
             "name": "양정동",
@@ -522,6 +601,15 @@
             "divisionIds": [
               "yangjeong-dong"
             ]
+          },
+          "centerLeader": {
+            "name": "김의태",
+            "title": "센터장",
+            "rank": "지방행정사무관(동장)",
+            "officePhone": "031-590-8013",
+            "mobilePhone": "010-4162-5882",
+            "email": "gimeetae@korea.kr",
+            "task": "금곡동 업무총괄 및 금곡양정 행정복지센터 총괄"
           }
         }
       ]

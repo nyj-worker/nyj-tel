@@ -250,10 +250,18 @@ function renderWelfareCenters() {
       `;
     }).join("");
 
+    const leaderName = (zone.centerLeader && zone.centerLeader.name) || (zone.center && zone.center.headName) || "";
     return `
       <div class="zone-box">
         <div class="zone-box-header">
-          <span class="zone-box-title">📍 ${zone.zoneName}</span>
+          <div class="zone-box-header-title-group">
+            <span class="zone-box-title">📍 ${zone.zoneName}</span>
+            ${leaderName ? `
+              <span class="zone-box-leader-badge" onclick="event.stopPropagation(); window.app.openStaff('${leaderName}')" title="센터장 ${leaderName} 상세정보 보기">
+                센터장 : ${leaderName}
+              </span>
+            ` : ""}
+          </div>
           <span class="zone-box-code">${zone.zoneCode}</span>
         </div>
         <div class="zone-box-body">
@@ -1297,6 +1305,118 @@ const leadershipStaffMap = {
     role: "스마트도시과 업무 총괄",
     avatar: "스",
     avatarBg: "linear-gradient(135deg, #0d9488, #0f766e)"
+  },
+  "이백영": {
+    name: "이백영",
+    position: "와부조안 행정복지센터장",
+    positionDetail: "지방서기관 (읍장 / 센터장)",
+    dept: "행정복지센터 > 와부조안 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 와부조안 행정복지센터",
+    phone: "031-590-8001",
+    mobile: "010-8746-6683",
+    email: "lee1k@korea.kr",
+    extension: "8001",
+    role: "와부읍 업무 총괄 및 와부조안 행정복지센터 총괄",
+    avatar: "와",
+    avatarBg: "linear-gradient(135deg, #1e40af, #1e3a8a)"
+  },
+  "이형숙": {
+    name: "이형숙",
+    position: "진접오남 행정복지센터장",
+    positionDetail: "지방서기관 (읍장 / 센터장)",
+    dept: "행정복지센터 > 진접오남 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 진접오남 행정복지센터",
+    phone: "031-590-8002",
+    mobile: "010-4631-9973",
+    email: "lhs68615@korea.kr",
+    extension: "8002",
+    role: "진접읍 업무 총괄 및 진접오남 행정복지센터 총괄",
+    avatar: "진",
+    avatarBg: "linear-gradient(135deg, #059669, #047857)"
+  },
+  "유형식": {
+    name: "유형식",
+    position: "화도수동 행정복지센터장",
+    positionDetail: "지방서기관 (읍장 / 센터장)",
+    dept: "행정복지센터 > 화도수동 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 화도수동 행정복지센터",
+    phone: "031-590-8003",
+    mobile: "010-8880-0961",
+    email: "andyou1@korea.kr",
+    extension: "8003",
+    role: "화도읍 업무 총괄 및 화도수동 행정복지센터 총괄",
+    avatar: "화",
+    avatarBg: "linear-gradient(135deg, #d97706, #b45309)"
+  },
+  "김학철": {
+    name: "김학철",
+    position: "진건퇴계원 행정복지센터장",
+    positionDetail: "지방서기관 (읍장 / 센터장)",
+    dept: "행정복지센터 > 진건퇴계원 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 진건퇴계원 행정복지센터",
+    phone: "031-590-8004",
+    mobile: "010-8334-3831",
+    email: "rlagkrcjf@korea.kr",
+    extension: "8004",
+    role: "진건읍 업무 총괄 및 진건퇴계원 행정복지센터 총괄",
+    avatar: "진",
+    avatarBg: "linear-gradient(135deg, #2563eb, #1d4ed8)"
+  },
+  "정순영": {
+    name: "정순영",
+    position: "호평평내 행정복지센터장",
+    positionDetail: "지방서기관 (동장 / 센터장)",
+    dept: "행정복지센터 > 호평평내 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 호평평내 행정복지센터",
+    phone: "031-590-8011",
+    mobile: "010-9249-9374",
+    email: "jsy9374@korea.kr",
+    extension: "8011",
+    role: "호평동 업무 총괄 및 호평평내 행정복지센터 총괄",
+    avatar: "호",
+    avatarBg: "linear-gradient(135deg, #0891b2, #0e7490)"
+  },
+  "문길모": {
+    name: "문길모",
+    position: "다산 행정복지센터장",
+    positionDetail: "지방서기관 (동장 / 센터장)",
+    dept: "행정복지센터 > 다산 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 다산 행정복지센터",
+    phone: "031-590-8016",
+    mobile: "010-5267-1876",
+    email: "moongilmo@korea.kr",
+    extension: "8016",
+    role: "다산1동 업무 총괄 및 다산 행정복지센터 총괄",
+    avatar: "다",
+    avatarBg: "linear-gradient(135deg, #7c3aed, #6d28d9)"
+  },
+  "이유미": {
+    name: "이유미",
+    position: "별내 행정복지센터장",
+    positionDetail: "지방서기관 (동장 / 센터장)",
+    dept: "행정복지센터 > 별내 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 별내 행정복지센터",
+    phone: "031-590-8490",
+    mobile: "010-9273-2723",
+    email: "dbal8815@korea.kr",
+    extension: "8490",
+    role: "별내동 업무 총괄 및 별내 행정복지센터 총괄",
+    avatar: "별",
+    avatarBg: "linear-gradient(135deg, #0d9488, #0f766e)"
+  },
+  "김의태": {
+    name: "김의태",
+    position: "금곡양정 행정복지센터장",
+    positionDetail: "지방행정사무관 (동장 / 센터장)",
+    dept: "행정복지센터 > 금곡양정 행정복지센터",
+    breadcrumb: "남양주시청 > 행정복지센터 > 금곡양정 행정복지센터",
+    phone: "031-590-8013",
+    mobile: "010-4162-5882",
+    email: "gimeetae@korea.kr",
+    extension: "8013",
+    role: "금곡동 업무 총괄 및 금곡양정 행정복지센터 총괄",
+    avatar: "금",
+    avatarBg: "linear-gradient(135deg, #e11d48, #be123c)"
   }
 };
 
@@ -1322,8 +1442,6 @@ function openStaffModal(staffName) {
   const mobilePhoneLink = document.getElementById("modal-staff-mobile-phone");
   const deptEl = document.getElementById("modal-staff-dept");
   const roleEl = document.getElementById("modal-staff-role");
-  const emailRow = document.getElementById("modal-staff-email-row");
-  const emailLink = document.getElementById("modal-staff-email");
 
   if (breadcrumbEl) breadcrumbEl.textContent = staff.breadcrumb;
   if (titleEl) titleEl.textContent = `${staff.position} ${staff.name}`;
@@ -1362,17 +1480,6 @@ function openStaffModal(staffName) {
   } else {
     if (mobileBtn) mobileBtn.style.display = "none";
     if (mobileRow) mobileRow.style.display = "none";
-  }
-
-  // 전자우편 처리
-  if (staff.email) {
-    if (emailRow) emailRow.style.display = "block";
-    if (emailLink) {
-      emailLink.href = `mailto:${staff.email}`;
-      emailLink.textContent = staff.email;
-    }
-  } else {
-    if (emailRow) emailRow.style.display = "none";
   }
 
   if (deptEl) deptEl.textContent = staff.dept;
