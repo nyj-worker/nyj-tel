@@ -57,7 +57,17 @@
             autocomplete="off"
             aria-label="조직도 검색"
           />
+          <button type="button" class="search-mic-btn" id="search-mic-btn" title="음성으로 검색" aria-label="음성 검색">🎙️</button>
           <button type="button" class="search-clear-btn" id="search-clear-btn" aria-label="검색어 지우기">✕</button>
+        </div>
+
+        <!-- Voice Search Action Button (빨간색 박스 아래 음성검색 버튼) -->
+        <div class="voice-search-wrapper">
+          <button type="button" class="voice-search-btn" id="voice-search-btn" aria-label="음성으로 검색하기">
+            <span class="voice-mic-icon" aria-hidden="true">🎙️</span>
+            <span class="voice-status-text" id="voice-status-text">음성 검색</span>
+            <span class="voice-pulse-ring" aria-hidden="true"></span>
+          </button>
         </div>
 
         <!-- Search Tag Hints -->

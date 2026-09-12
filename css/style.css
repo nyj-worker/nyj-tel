@@ -290,7 +290,7 @@ ul, ol {
 .search-input {
   width: 100%;
   height: 56px;
-  padding: 0 54px 0 54px;
+  padding: 0 88px 0 54px;
   border-radius: var(--radius-full);
   border: 2px solid transparent;
   background: var(--surface);
@@ -306,9 +306,36 @@ ul, ol {
   box-shadow: 0 0 0 4px rgba(40, 120, 216, 0.25);
 }
 
+.search-mic-btn {
+  position: absolute;
+  right: 50px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  font-size: 1.15rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  color: var(--primary);
+}
+
+.search-mic-btn:hover {
+  background: rgba(40, 120, 216, 0.12);
+  transform: scale(1.1);
+}
+
+.search-mic-btn.listening {
+  color: #ef4444;
+  animation: mic-bounce 0.8s infinite alternate;
+}
+
 .search-clear-btn {
   position: absolute;
-  right: 18px;
+  right: 16px;
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -326,6 +353,82 @@ ul, ol {
 .search-clear-btn.active {
   visibility: visible;
   opacity: 1;
+}
+
+/* 4-1. Voice Search Action Button (검색창 하단 음성검색 버튼) */
+.voice-search-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+
+.voice-search-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 22px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.voice-search-btn:hover {
+  background: rgba(255, 255, 255, 0.26);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.22);
+}
+
+.voice-search-btn:active {
+  transform: translateY(0);
+}
+
+.voice-search-btn .voice-mic-icon {
+  font-size: 1.15rem;
+  transition: transform 0.2s ease;
+}
+
+/* 음성 듣는 중 (Listening) 활성 상태 애니메이션 */
+.voice-search-btn.listening {
+  background: linear-gradient(135deg, #ef4444, #dc2626) !important;
+  border-color: #fca5a5 !important;
+  color: #ffffff !important;
+  animation: voice-glow 1.6s infinite;
+}
+
+.voice-search-btn.listening .voice-mic-icon {
+  animation: mic-bounce 0.7s infinite alternate;
+}
+
+@keyframes voice-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(239, 68, 68, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+@keyframes mic-bounce {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.25);
+  }
 }
 
 .search-tag-hints {

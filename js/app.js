@@ -28,6 +28,7 @@ import {
 import { initTheme, toggleTheme } from "./theme.js";
 import { initRouter, navigateTo } from "./router.js";
 import { loadPDF, extractTextItems, groupByRows } from "./pdfParser.js";
+import { VoiceSearchEngine } from "./voiceSearch.js";
 
 // Global State
 let allDepts = [];
@@ -66,6 +67,7 @@ async function initApp() {
 
     // 5. 검색 및 이벤트 핸들러 바인딩
     setupSearchHandlers();
+    setupVoiceSearchHandlers();
     setupTabHandlers();
     setupModalHandlers();
     setupAdminHandlers();
@@ -75,7 +77,9 @@ async function initApp() {
       onDepartment: (id) => openDepartmentModal(id),
       onSearch: (query) => {
         const input = document.getElementById("search-input");
+        const clearBtn = document.getElementById("search-clear-btn");
         if (input) input.value = query;
+        if (clearBtn) clearBtn.classList.toggle("active", (query || "").length > 0);
         performSearch(query);
       },
       onFavorites: () => switchTab("favorites"),
@@ -541,6 +545,77 @@ function setupSearchHandlers() {
   });
 }
 
+// ------------------------------------------------------------
+// 3-1. 스마트 음성 검색 핸들러 (Web Speech API)
+// ------------------------------------------------------------
+let voiceEngine = null;
+
+function setupVoiceSearchHandlers() {
+  const voiceBtn = document.getElementById("voice-search-btn");
+  const voiceStatusText = document.getElementById("voice-status-text");
+  const micIconBtn = document.getElementById("search-mic-btn");
+  const input = document.getElementById("search-input");
+  const clearBtn = document.getElementById("search-clear-btn");
+
+  if (!voiceBtn && !micIconBtn) return;
+
+  voiceEngine = new VoiceSearchEngine({
+    onStart: () => {
+      if (voiceBtn) {
+        voiceBtn.classList.add("listening");
+      }
+      if (voiceStatusText) {
+        voiceStatusText.textContent = "말씀해 주세요... (듣는 중)";
+      }
+      if (micIconBtn) {
+        micIconBtn.classList.add("listening");
+      }
+      showToast("🎙️ 마이크가 켜졌습니다. 찾으실 부서나 담당자를 말씀하세요.");
+    },
+    onResult: (transcript) => {
+      if (!transcript) return;
+      if (input) {
+        input.value = transcript;
+      }
+      if (clearBtn) {
+        clearBtn.classList.add("active");
+      }
+      showToast(`🎙️ "${transcript}"(으)로 검색했습니다.`);
+      performSearch(transcript);
+      navigateTo(`#/search/${encodeURIComponent(transcript)}`);
+    },
+    onError: (message) => {
+      showToast(`⚠️ ${message}`);
+    },
+    onEnd: () => {
+      if (voiceBtn) {
+        voiceBtn.classList.remove("listening");
+      }
+      if (voiceStatusText) {
+        voiceStatusText.textContent = "음성 검색";
+      }
+      if (micIconBtn) {
+        micIconBtn.classList.remove("listening");
+      }
+    }
+  });
+
+  const handleVoiceToggle = () => {
+    if (!VoiceSearchEngine.isSupported()) {
+      showToast("⚠️ 현재 브라우저는 음성 검색을 지원하지 않습니다. Chrome 또는 Edge 브라우저를 이용해 주세요.");
+      return;
+    }
+    voiceEngine.toggle();
+  };
+
+  if (voiceBtn) {
+    voiceBtn.addEventListener("click", handleVoiceToggle);
+  }
+  if (micIconBtn) {
+    micIconBtn.addEventListener("click", handleVoiceToggle);
+  }
+}
+
 function performSearch(query) {
   const searchSection = document.getElementById("search-results-view");
   const searchGrid = document.getElementById("search-results-grid");
@@ -851,6 +926,8 @@ function openStaffModal(staffName) {
   const mobilePhoneLink = document.getElementById("modal-staff-mobile-phone");
   const deptEl = document.getElementById("modal-staff-dept");
   const roleEl = document.getElementById("modal-staff-role");
+  const emailRow = document.getElementById("modal-staff-email-row");
+  const emailLink = document.getElementById("modal-staff-email");
 
   if (breadcrumbEl) breadcrumbEl.textContent = staff.breadcrumb;
   if (titleEl) titleEl.textContent = `${staff.position} ${staff.name}`;
@@ -889,6 +966,17 @@ function openStaffModal(staffName) {
   } else {
     if (mobileBtn) mobileBtn.style.display = "none";
     if (mobileRow) mobileRow.style.display = "none";
+  }
+
+  // 전자우편 처리
+  if (staff.email) {
+    if (emailRow) emailRow.style.display = "block";
+    if (emailLink) {
+      emailLink.href = `mailto:${staff.email}`;
+      emailLink.textContent = staff.email;
+    }
+  } else {
+    if (emailRow) emailRow.style.display = "none";
   }
 
   if (deptEl) deptEl.textContent = staff.dept;
@@ -1023,6 +1111,9 @@ window.app = {
     if (currentActiveTab === "favorites") {
       renderFavorites();
     }
+  },
+  toggleVoice: () => {
+    if (voiceEngine) voiceEngine.toggle();
   }
 };
 
