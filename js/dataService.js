@@ -15,12 +15,13 @@ export async function loadOrganization() {
   if (orgData) return orgData;
 
   try {
+    const t = Date.now();
     const [orgRes, tasksRes, overridesRes] = await Promise.all([
-      fetch("./data/organization.json").then((r) => r.json()),
-      fetch("./data/department-tasks.json")
+      fetch(`./data/organization.json?t=${t}`).then((r) => r.json()),
+      fetch(`./data/department-tasks.json?t=${t}`)
         .then((r) => r.json())
         .catch(() => ({})),
-      fetch("./data/manual-overrides.json")
+      fetch(`./data/manual-overrides.json?t=${t}`)
         .then((r) => r.json())
         .catch(() => ({}))
     ]);
