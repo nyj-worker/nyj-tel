@@ -267,8 +267,7 @@ function renderWelfareCenters() {
         <div class="zone-box-body">
           <div class="zone-center-section">
             <div class="zone-role-title">
-              <span><strong>${zone.center.name}</strong> (거점 책임읍·동장: ${zone.center.headName || "배치"})</span>
-              <span style="font-size:0.75rem;">과장급 전진배치</span>
+              <span><strong>${zone.center.name}</strong></span>
             </div>
             <div class="zone-divisions-list">
               ${centerDivs}
@@ -276,8 +275,7 @@ function renderWelfareCenters() {
           </div>
           <div class="zone-sub-section">
             <div class="zone-role-title">
-              <span><strong>${zone.subArea.name}</strong> (관할 연계지역)</span>
-              <span style="font-size:0.75rem;">원스톱 행정복지</span>
+              <span><strong>${zone.subArea.name}</strong></span>
             </div>
             <div class="zone-divisions-list">
               ${subDivs}
