@@ -1030,6 +1030,32 @@ ul, ol {
   color: #fff;
 }
 
+.search-type-badge {
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: var(--primary-light);
+  color: var(--primary);
+  margin-top: 3px;
+}
+
+[data-theme="dark"] .search-type-badge {
+  background: rgba(40, 120, 216, 0.25);
+  color: #93c5fd;
+}
+
+.staff-result-card {
+  border-left: 4px solid var(--primary);
+}
+
+.staff-result-card:hover {
+  border-left-color: #1e3a8a;
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
 .empty-state {
   text-align: center;
   padding: 64px 20px;

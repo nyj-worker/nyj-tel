@@ -12,6 +12,7 @@ import {
 
 import {
   searchDepartments,
+  searchAllOrganization,
   highlightText,
   debounce
 } from "./search.js";
@@ -628,7 +629,14 @@ function performSearch(query) {
   panels.forEach(p => p.style.display = "none");
   searchSection.classList.add("active");
 
-  const results = searchDepartments(allDepts, query);
+  // 전체 조직도 통합 검색 실행
+  const results = searchAllOrganization({
+    departments: allDepts,
+    leadership: leadershipData,
+    sections: sectionsData,
+    leadershipStaffMap: leadershipStaffMap
+  }, query);
+
   if (searchCountEl) searchCountEl.textContent = results.length;
 
   if (results.length === 0) {
@@ -636,13 +644,94 @@ function performSearch(query) {
       <div class="empty-state" style="grid-column: 1 / -1;">
         <div class="empty-icon">🔍</div>
         <h3 class="empty-title">검색 결과가 없습니다.</h3>
-        <p class="empty-desc">'${query}'에 해당하는 부서, 팀 또는 담당자를 찾지 못했습니다.<br/>초성(예: ㅎㅁ) 또는 다른 검색어를 입력해 보세요.</p>
+        <p class="empty-desc">'${query}'에 해당하는 인물, 부서, 팀 또는 담당자를 찾지 못했습니다.<br/>초성(예: ㅎㅁ) 또는 다른 검색어를 입력해 보세요.</p>
       </div>
     `;
     return;
   }
 
   searchGrid.innerHTML = results.map(r => {
+    // 1. 인물/지휘부/실·국장 카드
+    if (r.type === "staff") {
+      const staff = r.staff;
+      const telNum = (staff.phone || "031-590-2114").replace(/[^0-9]/g, "");
+      return `
+        <div class="dept-card staff-result-card" onclick="window.app.openStaff('${staff.name}')" style="cursor: pointer;">
+          <div class="dept-card-header">
+            <div style="display: flex; align-items: center; gap: 10px;">
+              <div class="dept-head-avatar" style="width: 36px; height: 36px; font-size: 0.95rem; background: ${staff.avatarBg || 'var(--primary)'}; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700;">
+                ${staff.avatar || staff.name.charAt(0)}
+              </div>
+              <div>
+                <h4 class="dept-card-title">${r.title}</h4>
+                <span class="search-type-badge">${r.categoryType}</span>
+              </div>
+            </div>
+          </div>
+          <div class="dept-card-body">
+            <div class="dept-leader-row">
+              <span class="dept-leader-label">소속/직급:</span>
+              <span class="dept-leader-name">${staff.positionDetail || staff.position} (${staff.dept})</span>
+            </div>
+            <div class="dept-phone-row" style="display: flex; flex-direction: column; gap: 4px;">
+              <a href="tel:${telNum}" class="phone-link" onclick="event.stopPropagation();">📞 행정: ${staff.phone || "031-590-2114"}</a>
+              ${staff.mobile ? `<a href="tel:${staff.mobile.replace(/[^0-9]/g,'')}" class="phone-link" style="color: #2563eb; font-weight: 700;" onclick="event.stopPropagation();">📱 휴대: ${staff.mobile}</a>` : ""}
+            </div>
+            ${staff.role ? `<p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 6px; line-height: 1.4;">${staff.role}</p>` : ""}
+            <div class="dept-card-footer" style="margin-top: 10px;">
+              <span class="dept-detail-link">👤 인물 상세 모달 보기 &gt;</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // 2. 시의회 사무국 카드
+    if (r.type === "council") {
+      const c = r.councilItem;
+      const phone = c.phone || c.extension || "2114";
+      return `
+        <div class="dept-card" onclick="window.app.openTab('council')" style="cursor: pointer;">
+          <div class="dept-card-header">
+            <h4 class="dept-card-title">${r.title}</h4>
+            <span class="search-type-badge">${r.categoryType}</span>
+          </div>
+          <div class="dept-card-body">
+            <div class="dept-leader-row">
+              <span class="dept-leader-label">${c.rank ? "직급:" : "담당:"}</span>
+              <span class="dept-leader-name">${c.rank || c.leader || "남양주시의회 사무국"}</span>
+            </div>
+            <div class="dept-phone-row">
+              <a href="tel:031590${phone}" class="phone-link" onclick="event.stopPropagation();">📞 031-590-${phone}</a>
+            </div>
+            <div class="dept-card-footer" style="margin-top: 10px;">
+              <span class="dept-detail-link">⚖️ 시의회 사무국 보기 &gt;</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // 3. 8대 권역 행정복지센터 카드
+    if (r.type === "zone") {
+      return `
+        <div class="dept-card" onclick="window.app.openTab('welfareCenters')" style="cursor: pointer;">
+          <div class="dept-card-header">
+            <h4 class="dept-card-title">${r.title}</h4>
+            <span class="search-type-badge">${r.categoryType}</span>
+          </div>
+          <div class="dept-card-body">
+            <p style="font-size: 0.88rem; margin-bottom: 6px;">${r.subtitle}</p>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">거점 행정복지센터 과장급 전진배치 및 관할 읍·동 연계</p>
+            <div class="dept-card-footer" style="margin-top: 10px;">
+              <span class="dept-detail-link">🏡 권역 행정복지센터 보기 &gt;</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    // 4. 일반 107개 부서 카드
     const dept = r.department;
     return createDeptCardHtml(dept);
   }).join("");
@@ -901,6 +990,159 @@ const leadershipStaffMap = {
     role: "기획조정실 업무 총괄 (시정 주요 정책 기획, 예산 편성, 인사·조직 관리, 자치행정 및 스마트도시 추진 총괄)",
     avatar: "실",
     avatarBg: "linear-gradient(135deg, #1e40af, #1e3a8a)"
+  },
+  "안병찬": {
+    name: "안병찬",
+    position: "시민시장담당관",
+    positionDetail: "행정5급 (담당관)",
+    dept: "시장 직속",
+    breadcrumb: "남양주시청 > 시장 직속 > 시민시장담당관",
+    phone: "031-590-4002",
+    mobile: "010-8846-6738",
+    extension: "4002",
+    role: "시민시장담당관 업무 총괄 및 시민 소통·참여 행정 총괄",
+    avatar: "시",
+    avatarBg: "linear-gradient(135deg, #2563eb, #1d4ed8)"
+  },
+  "백승조": {
+    name: "백승조",
+    position: "시민안전관",
+    positionDetail: "지방서기관 (안전관)",
+    dept: "부시장 직속",
+    breadcrumb: "남양주시청 > 부시장 직속 > 시민안전관",
+    phone: "031-590-2160",
+    mobile: "010-5551-3963",
+    extension: "2160",
+    role: "시민안전관 업무 총괄 및 재난안전 관리 대책 총괄",
+    avatar: "안",
+    avatarBg: "linear-gradient(135deg, #0284c7, #0369a1)"
+  },
+  "이윤희": {
+    name: "이윤희",
+    position: "청년담당관",
+    positionDetail: "행정6급 (담당관 직무대리)",
+    dept: "부시장 직속",
+    breadcrumb: "남양주시청 > 부시장 직속 > 청년담당관",
+    phone: "031-590-8291",
+    mobile: "010-3035-8089",
+    extension: "8291",
+    role: "청년정책 기획, 청년 일자리 지원 및 청년 공간 활성화 총괄",
+    avatar: "청",
+    avatarBg: "linear-gradient(135deg, #059669, #047857)"
+  },
+  "원경희": {
+    name: "원경희",
+    position: "홍보담당관",
+    positionDetail: "행정5급 (담당관)",
+    dept: "부시장 직속",
+    breadcrumb: "남양주시청 > 부시장 직속 > 홍보담당관",
+    phone: "031-590-2060",
+    mobile: "010-4780-4297",
+    extension: "2060",
+    role: "남양주시 시정 홍보, 언론 보도 총괄 및 시정 소식지 발행",
+    avatar: "홍",
+    avatarBg: "linear-gradient(135deg, #d97706, #b45309)"
+  },
+  "박진범": {
+    name: "박진범",
+    position: "행정국장",
+    positionDetail: "지방서기관 (국장)",
+    dept: "행정국",
+    breadcrumb: "남양주시청 > 행정국",
+    phone: "031-590-2025",
+    mobile: "010-7316-3432",
+    extension: "2025",
+    role: "행정국 업무 총괄 (총무, 자치행정, 회계, 세정 정책 총괄)",
+    avatar: "행",
+    avatarBg: "linear-gradient(135deg, #4f46e5, #3730a3)"
+  },
+  "강호진": {
+    name: "강호진",
+    position: "재정경제국장",
+    positionDetail: "지방서기관 (국장)",
+    dept: "재정경제국",
+    breadcrumb: "남양주시청 > 재정경제국",
+    phone: "031-590-2029",
+    mobile: "010-2067-9963",
+    extension: "2029",
+    role: "재정경제국 업무 총괄 (재정 기획, 지역경제 활성화 및 일자리 총괄)",
+    avatar: "재",
+    avatarBg: "linear-gradient(135deg, #0d9488, #0f766e)"
+  },
+  "강태일": {
+    name: "강태일",
+    position: "복지국장",
+    positionDetail: "지방서기관 (국장)",
+    dept: "복지국",
+    breadcrumb: "남양주시청 > 복지국",
+    phone: "031-590-2027",
+    mobile: "010-7769-9159",
+    extension: "2027",
+    role: "복지국 업무 총괄 (사회복지, 노인·장애인 복지, 아동·여성 정책 총괄)",
+    avatar: "복",
+    avatarBg: "linear-gradient(135deg, #e11d48, #be123c)"
+  },
+  "문명우": {
+    name: "문명우",
+    position: "문화교육국장",
+    positionDetail: "지방서기관 (국장)",
+    dept: "문화교육국",
+    breadcrumb: "남양주시청 > 문화교육국",
+    phone: "031-590-2039",
+    mobile: "010-9291-8732",
+    extension: "2039",
+    role: "문화교육국 업무 총괄 (문화예술 진흥, 체육 발전 및 평생교육 육성 총괄)",
+    avatar: "문",
+    avatarBg: "linear-gradient(135deg, #7c3aed, #6d28d9)"
+  },
+  "남경화": {
+    name: "남경화",
+    position: "환경국장",
+    positionDetail: "지방과학기술서기관 (국장)",
+    dept: "환경국",
+    breadcrumb: "남양주시청 > 환경국",
+    phone: "031-590-2037",
+    mobile: "010-9140-2419",
+    extension: "2037",
+    role: "환경국 업무 총괄 (기후위기 대응, 환경관리, 자원순환 및 생태하천 총괄)",
+    avatar: "환",
+    avatarBg: "linear-gradient(135deg, #16a34a, #15803d)"
+  },
+  "임선영": {
+    name: "임선영",
+    position: "도시국장",
+    positionDetail: "지방과학기술서기관 (국장)",
+    dept: "도시국",
+    breadcrumb: "남양주시청 > 도시국",
+    phone: "031-590-2114",
+    mobile: null,
+    role: "도시국 업무 총괄 (도시계획 수립, 도시개발 및 공간구조 재편 총괄)",
+    avatar: "도",
+    avatarBg: "linear-gradient(135deg, #2563eb, #1e40af)"
+  },
+  "이상열": {
+    name: "이상열",
+    position: "교통국장",
+    positionDetail: "지방서기관 (국장)",
+    dept: "교통국",
+    breadcrumb: "남양주시청 > 교통국",
+    phone: "031-590-2114",
+    mobile: null,
+    role: "교통국 업무 총괄 (광역교통망 확충, 대중교통 체계 개선 및 주차행정 총괄)",
+    avatar: "교",
+    avatarBg: "linear-gradient(135deg, #ea580c, #c2410c)"
+  },
+  "양기영": {
+    name: "양기영",
+    position: "미래도시추진단장",
+    positionDetail: "지방과학기술서기관 (단장)",
+    dept: "미래도시추진단",
+    breadcrumb: "남양주시청 > 미래도시추진단",
+    phone: "031-590-2114",
+    mobile: null,
+    role: "미래도시추진단 업무 총괄 (3기 신도시 왕숙지구 조성 및 첨단산업 유치 총괄)",
+    avatar: "미",
+    avatarBg: "linear-gradient(135deg, #0891b2, #0e7490)"
   }
 };
 
@@ -1101,6 +1343,7 @@ function setupAdminHandlers() {
 window.app = {
   openDept: (deptId) => navigateTo(`#/department/${deptId}`),
   openStaff: (staffName) => openStaffModal(staffName),
+  openTab: (tabId) => switchTab(tabId),
   toggleFav: (deptId, deptName, btnEl) => {
     const added = toggleFavorite(deptId, deptName);
     if (btnEl) {
